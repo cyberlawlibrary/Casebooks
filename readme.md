@@ -1,11 +1,11 @@
 ## Online versions
-[Contract Law and Its Application, 9th Ed, Danny Bussel](https://cyberlawlibrary.github.io/casebooks/Contract-Law-and-Its-Application-9th-Ed)
+[Contract Law and Its Application, 9th Ed, Danny Bussel](https://cyberlawlibrary.github.io/Casebooks/Contract-Law-and-Its-Application-9th-Ed)
 
-[Civil Procedure, 10th Ed, Joanna Schwartz & Stephen Yeazell](https://cyberlawlibrary.github.io/casebooks/Civil-Procedure-10th-Ed)
+[Civil Procedure, 10th Ed, Joanna Schwartz & Stephen Yeazell](https://cyberlawlibrary.github.io/Casebooks/Civil-Procedure-10th-Ed)
 
-[Criminal Law and Its Processes, 10th Ed, Sanford Kadish et al.](https://cyberlawlibrary.github.io/casebooks/Criminal-Law-and-Its-Processes-10th-Ed)
+[Criminal Law and Its Processes, 10th Ed, Sanford Kadish et al.](https://cyberlawlibrary.github.io/Casebooks/Criminal-Law-and-Its-Processes-10th-Ed)
 
-[Constitutional Law, 6th Ed, Erwin Chemerinsky](https://cyberlawlibrary.github.io/casebooks/Constitutional-Law-6th-Ed)
+[Constitutional Law, 6th Ed, Erwin Chemerinsky](https://cyberlawlibrary.github.io/Casebooks/Constitutional-Law-6th-Ed)
 
 [Basic Legal Research, 7th Ed, Amy Sloan]()
 
