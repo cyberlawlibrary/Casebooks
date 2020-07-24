@@ -1,0 +1,3089 @@
+body {
+	margin-left: 45px !important;
+	font-family: 'Open Sans', sans-serif;}
+
+		.epub-hide {
+		display: none; }
+
+	.clearfix:after {
+		content: "";
+		display: table;
+		clear: both; }
+
+	/* MUST NOT BE DELETED, allows the page numbers and image sizing to work in the ENRICHMENT TOOL */
+	.enrichapps-epubContainer {
+		width: 630px;
+		position: relative;
+		font-family: Arial !important;}
+
+	.epub-epubContainer {
+		font-size: 15px;
+		font-weight: normal;
+		color: #333;
+		line-height: 19px;
+		text-align: justify; }
+
+	.epub-contentContainer {
+		padding-right: 50px; }
+
+	.epub-coverimage {
+		text-align: center;
+		margin-bottom: 30px; }
+
+	/* <blob>, <img> */
+	.epub-text-para {
+		margin-right: 45px; }
+	.epub-text-para.left {
+		float: none !important;
+		text-align: left; }
+	.epub-text-para.center {
+		float: none !important;
+		text-align: center; }
+	.epub-text-para.right {
+		float: none !important;
+		text-align: right; }
+	.epub-text-para.epub-continue-para {
+		text-indent: 0px; }
+
+	.epub-epubContainer .epub-sidebar-icon, .epub-epubContainer .epub-sidebar-icon-alt {
+		float: right;
+		display: block;
+		padding: 2px;
+		margin-left: 10px; }
+	.epub-epubContainer .epub-sidebar-icon {
+		width: 40px; }
+		.epub-epubContainer .epub-sidebar-icon img {
+			-webkit-transform: rotate(90deg);
+			-moz-transform: rotate(90deg);
+			-ms-transform: rotate(90deg);
+			-o-transform: rotate(90deg);
+			transform: rotate(90deg); }
+	.epub-epubContainer .epub-heading > p {
+		font-size: inherit;
+		line-height: inherit;
+		margin-bottom: 0;
+		font-weight: inherit;
+		font-style: inherit;
+		text-indent: 0px; }
+	.epub-epubContainer a {
+		color: #007aC3;
+		text-decoration: none; }
+	.epub-epubContainer p {
+		margin: 0 0 25px 0;
+		line-height: 19px;
+		font-size: 15px;
+		text-indent: 0px; }
+		.epub-epubContainer p.epub-indent-indent {
+			text-indent: 0px; }
+		.epub-epubContainer p.epub-indent-source {
+			margin-left: 20px;
+			text-indent: -20px; }
+		.epub-epubContainer p.epub-indent-flush {
+			text-indent: 0px; }
+	.epub-epubContainer li > p {
+		margin: 0 0 10px 0;
+		line-height: 19px;
+		font-size: 15px;
+		/*https://issues.wrycan.com/browse/GIRAFFE-417*/
+		text-indent: 0px; }
+	.epub-epubContainer .epub-double-underline {
+		text-decoration: underline;
+		border-bottom: 1px solid #000; }
+	.epub-epubContainer .epub-strikethrough {
+		text-decoration: line-through; }
+	.epub-epubContainer .epub-small-caps {
+		font-variant: small-caps; }
+	.epub-epubContainer .epub-question-container > .epub-question-icon {
+		float: left;
+		margin-right: 20px;
+		margin-bottom: 10px;
+		float: left; }
+	.epub-epubContainer .epub-answer-container > .epub-answer-content {
+		padding: 0 0 0 5px;
+		border-left: 1px solid #ccc;
+		margin-left: 45px; }
+	.epub-epubContainer .epub-answer-container .epub-answer-icon {
+		float: left; }
+	.epub-epubContainer .epub-theme {
+		float: right;
+		display: block;
+		font-weight: bold;
+		border: 2px solid #95b378;
+		padding: 15px 18px;
+		margin-left: 10px;
+		max-width: 180px;
+		text-align: left; }
+
+	/*https://issues.wrycan.com/browse/GIRAFFE-567*/
+	.epub-feature-header-image {
+		float: left;
+		margin-right: 20px; }
+
+	.epub-image-container {
+		margin: 15px auto 0 auto;
+		text-align: center; }
+
+	.epub-image {
+		margin: 0 0 15px 0;
+		text-align: center; }
+		.epub-image img {
+			margin: 0px auto;
+			width: 100%;
+			height: auto; }
+
+	p.epub-image-title {
+		font-size: 15px;
+		line-height: 19px;
+		text-align: left;
+		font-weight: bold;
+		margin-bottom: 5px; }
+
+	p.epub-image-credit {
+		font-size: 11px;
+		line-height: 15px;
+		text-align: left;
+		margin-bottom: 5px; }
+
+	.epub-image-caption p {
+		font-size: 13px;
+		line-height: 17px;
+		text-align: left;
+		font-weight: bold;
+		margin-bottom: 5px; }
+
+	/* <ftnote> */
+	.epub-footnotenum-ref {
+		font-size: 13px; }
+		.epub-footnotenum-ref a {
+			color: #007aC3;
+			text-decoration: none; }
+
+	.epub-footnotenum {
+		font-size: 11px;
+		line-height: 0em;
+		vertical-align: super;
+		text-align: left;
+		color: #007aC3; }
+		.epub-footnotenum:hover {
+			cursor: pointer; }
+		.epub-footnotenum a {
+			color: #007aC3;
+			text-decoration: none; }
+
+	p.epub-footnote-text {
+		/*https://issues.wrycan.com/browse/GIRAFFE-545*/
+		font-size: 13px !important;
+		color: #333;
+		line-height: 17px;
+		text-align: left;
+		/*https://issues.wrycan.com/browse/GIRAFFE-417*/
+		text-indent: 0px; }
+
+	/*dialog*/
+	div.epub-dialog-block {
+		padding-left: 35px;
+		margin-bottom: 20px; }
+
+	p.epub-para-hanging {
+		text-align: left;
+		margin-left: 25px;
+		text-indent: -25px; }
+
+	p.epub-para-nogutter {
+		margin-bottom: 5px; }
+		p.epub-para-nogutter .dialog-label {
+			font-weight: bold; }
+
+	/* <xref> */
+	a.epub-externalref, a.epub-externalref:visited {
+		color: #4997ca;
+		text-decoration: none; }
+
+	/* <block-quote> */
+	.epub-blockquote {
+		padding: 0 35px; }
+		.epub-blockquote .epub-attrib {
+			font-size: 15px;
+			text-align: right;
+			font-style: italic;
+			margin: 0 0 25px 0; }
+		.epub-blockquote > .epub-heading > p {
+			font-size: 15px;
+			line-height: 19px;
+			margin-bottom: 13px;
+			font-weight: bold; }
+		.epub-blockquote p {
+			/*https://issues.wrycan.com/browse/GIRAFFE-417*/
+			text-indent: 0px; }
+
+	.epub-transcript {
+		padding: 0 35px; }
+
+	.epub-question-group {
+		margin-left: 50px; }
+
+	.epub-question-container > .epub-question-icon {
+		float: left;
+		margin-right: 20px;
+		margin-bottom: 10px;
+		float: left; }
+
+	.epub-answer-container > .epub-answer-content {
+		padding: 0 0 0 5px;
+		border-left: 1px solid #ccc;
+		margin-left: 45px; }
+	.epub-answer-container .epub-answer-icon {
+		float: left; }
+
+	.epub-text-left {
+		text-align: left; }
+
+	.epub-text-center {
+		text-align: center; }
+
+	.epub-text-right {
+		text-align: right; }
+
+	.epub-text-runInHeader {
+		font-weight: bold;
+		font-style: italic; }
+
+	.epub-text-smallcaps {
+		font-variant: small-caps; }
+
+	/*added to lessen left indent from lists in cells*/
+	.epub-epubContainer td ul, .epub-epubContainer td ol {
+		/*https://issues.wrycan.com/browse/GIRAFFE-395*/
+		margin: 0 0 20px 15px; }
+
+	.epub-epubContainer ul, .epub-epubContainer ol {
+		margin: 0 0 20px 40px;
+		padding: 0px; }
+
+	/* ol list general styles */
+	ol.epub-boldtoken > li:before {
+		font-weight: bold; }
+
+	ol.epub-italictoken > li:before {
+		font-style: italic; }
+
+	ul.epub-none {
+		list-style-type: none; }
+
+	/* generate ol.epub-list-reset1 { counter-reset: item 0; } up to 100 */
+	ol.epub-list-reset1 {
+		counter-reset: item 0; }
+
+	ol.epub-list-reset2 {
+		counter-reset: item 1; }
+
+	ol.epub-list-reset3 {
+		counter-reset: item 2; }
+
+	ol.epub-list-reset4 {
+		counter-reset: item 3; }
+
+	ol.epub-list-reset5 {
+		counter-reset: item 4; }
+
+	ol.epub-list-reset6 {
+		counter-reset: item 5; }
+
+	ol.epub-list-reset7 {
+		counter-reset: item 6; }
+
+	ol.epub-list-reset8 {
+		counter-reset: item 7; }
+
+	ol.epub-list-reset9 {
+		counter-reset: item 8; }
+
+	ol.epub-list-reset10 {
+		counter-reset: item 9; }
+
+	ol.epub-list-reset11 {
+		counter-reset: item 10; }
+
+	ol.epub-list-reset12 {
+		counter-reset: item 11; }
+
+	ol.epub-list-reset13 {
+		counter-reset: item 12; }
+
+	ol.epub-list-reset14 {
+		counter-reset: item 13; }
+
+	ol.epub-list-reset15 {
+		counter-reset: item 14; }
+
+	ol.epub-list-reset16 {
+		counter-reset: item 15; }
+
+	ol.epub-list-reset17 {
+		counter-reset: item 16; }
+
+	ol.epub-list-reset18 {
+		counter-reset: item 17; }
+
+	ol.epub-list-reset19 {
+		counter-reset: item 18; }
+
+	ol.epub-list-reset20 {
+		counter-reset: item 19; }
+
+	ol.epub-list-reset21 {
+		counter-reset: item 20; }
+
+	ol.epub-list-reset22 {
+		counter-reset: item 21; }
+
+	ol.epub-list-reset23 {
+		counter-reset: item 22; }
+
+	ol.epub-list-reset24 {
+		counter-reset: item 23; }
+
+	ol.epub-list-reset25 {
+		counter-reset: item 24; }
+
+	ol.epub-list-reset26 {
+		counter-reset: item 25; }
+
+	ol.epub-list-reset27 {
+		counter-reset: item 26; }
+
+	ol.epub-list-reset28 {
+		counter-reset: item 27; }
+
+	ol.epub-list-reset29 {
+		counter-reset: item 28; }
+
+	ol.epub-list-reset30 {
+		counter-reset: item 29; }
+
+	ol.epub-list-reset31 {
+		counter-reset: item 30; }
+
+	ol.epub-list-reset32 {
+		counter-reset: item 31; }
+
+	ol.epub-list-reset33 {
+		counter-reset: item 32; }
+
+	ol.epub-list-reset34 {
+		counter-reset: item 33; }
+
+	ol.epub-list-reset35 {
+		counter-reset: item 34; }
+
+	ol.epub-list-reset36 {
+		counter-reset: item 35; }
+
+	ol.epub-list-reset37 {
+		counter-reset: item 36; }
+
+	ol.epub-list-reset38 {
+		counter-reset: item 37; }
+
+	ol.epub-list-reset39 {
+		counter-reset: item 38; }
+
+	ol.epub-list-reset40 {
+		counter-reset: item 39; }
+
+	ol.epub-list-reset41 {
+		counter-reset: item 40; }
+
+	ol.epub-list-reset42 {
+		counter-reset: item 41; }
+
+	ol.epub-list-reset43 {
+		counter-reset: item 42; }
+
+	ol.epub-list-reset44 {
+		counter-reset: item 43; }
+
+	ol.epub-list-reset45 {
+		counter-reset: item 44; }
+
+	ol.epub-list-reset46 {
+		counter-reset: item 45; }
+
+	ol.epub-list-reset47 {
+		counter-reset: item 46; }
+
+	ol.epub-list-reset48 {
+		counter-reset: item 47; }
+
+	ol.epub-list-reset49 {
+		counter-reset: item 48; }
+
+	ol.epub-list-reset50 {
+		counter-reset: item 49; }
+
+	ol.epub-list-reset51 {
+		counter-reset: item 50; }
+
+	ol.epub-list-reset52 {
+		counter-reset: item 51; }
+
+	ol.epub-list-reset53 {
+		counter-reset: item 52; }
+
+	ol.epub-list-reset54 {
+		counter-reset: item 53; }
+
+	ol.epub-list-reset55 {
+		counter-reset: item 54; }
+
+	ol.epub-list-reset56 {
+		counter-reset: item 55; }
+
+	ol.epub-list-reset57 {
+		counter-reset: item 56; }
+
+	ol.epub-list-reset58 {
+		counter-reset: item 57; }
+
+	ol.epub-list-reset59 {
+		counter-reset: item 58; }
+
+	ol.epub-list-reset60 {
+		counter-reset: item 59; }
+
+	ol.epub-list-reset61 {
+		counter-reset: item 60; }
+
+	ol.epub-list-reset62 {
+		counter-reset: item 61; }
+
+	ol.epub-list-reset63 {
+		counter-reset: item 62; }
+
+	ol.epub-list-reset64 {
+		counter-reset: item 63; }
+
+	ol.epub-list-reset65 {
+		counter-reset: item 64; }
+
+	ol.epub-list-reset66 {
+		counter-reset: item 65; }
+
+	ol.epub-list-reset67 {
+		counter-reset: item 66; }
+
+	ol.epub-list-reset68 {
+		counter-reset: item 67; }
+
+	ol.epub-list-reset69 {
+		counter-reset: item 68; }
+
+	ol.epub-list-reset70 {
+		counter-reset: item 69; }
+
+	ol.epub-list-reset71 {
+		counter-reset: item 70; }
+
+	ol.epub-list-reset72 {
+		counter-reset: item 71; }
+
+	ol.epub-list-reset73 {
+		counter-reset: item 72; }
+
+	ol.epub-list-reset74 {
+		counter-reset: item 73; }
+
+	ol.epub-list-reset75 {
+		counter-reset: item 74; }
+
+	ol.epub-list-reset76 {
+		counter-reset: item 75; }
+
+	ol.epub-list-reset77 {
+		counter-reset: item 76; }
+
+	ol.epub-list-reset78 {
+		counter-reset: item 77; }
+
+	ol.epub-list-reset79 {
+		counter-reset: item 78; }
+
+	ol.epub-list-reset80 {
+		counter-reset: item 79; }
+
+	ol.epub-list-reset81 {
+		counter-reset: item 80; }
+
+	ol.epub-list-reset82 {
+		counter-reset: item 81; }
+
+	ol.epub-list-reset83 {
+		counter-reset: item 82; }
+
+	ol.epub-list-reset84 {
+		counter-reset: item 83; }
+
+	ol.epub-list-reset85 {
+		counter-reset: item 84; }
+
+	ol.epub-list-reset86 {
+		counter-reset: item 85; }
+
+	ol.epub-list-reset87 {
+		counter-reset: item 86; }
+
+	ol.epub-list-reset88 {
+		counter-reset: item 87; }
+
+	ol.epub-list-reset89 {
+		counter-reset: item 88; }
+
+	ol.epub-list-reset90 {
+		counter-reset: item 89; }
+
+	ol.epub-list-reset91 {
+		counter-reset: item 90; }
+
+	ol.epub-list-reset92 {
+		counter-reset: item 91; }
+
+	ol.epub-list-reset93 {
+		counter-reset: item 92; }
+
+	ol.epub-list-reset94 {
+		counter-reset: item 93; }
+
+	ol.epub-list-reset95 {
+		counter-reset: item 94; }
+
+	ol.epub-list-reset96 {
+		counter-reset: item 95; }
+
+	ol.epub-list-reset97 {
+		counter-reset: item 96; }
+
+	ol.epub-list-reset98 {
+		counter-reset: item 97; }
+
+	ol.epub-list-reset99 {
+		counter-reset: item 98; }
+
+	ol.epub-list-reset100 {
+		counter-reset: item 99; }
+
+	ol.epub-list-reset101 {
+		counter-reset: item 100; }
+
+	ol.epub-list-reset102 {
+		counter-reset: item 101; }
+
+	ol.epub-list-reset103 {
+		counter-reset: item 102; }
+
+	ol.epub-list-reset104 {
+		counter-reset: item 103; }
+
+	ol.epub-list-reset105 {
+		counter-reset: item 104; }
+
+	ol.epub-list-reset106 {
+		counter-reset: item 105; }
+
+	ol.epub-list-reset107 {
+		counter-reset: item 106; }
+
+	ol.epub-list-reset108 {
+		counter-reset: item 107; }
+
+	ol.epub-list-reset109 {
+		counter-reset: item 108; }
+
+	ol.epub-list-reset110 {
+		counter-reset: item 109; }
+
+	ol.epub-list-reset111 {
+		counter-reset: item 110; }
+
+	ol.epub-list-reset112 {
+		counter-reset: item 111; }
+
+	ol.epub-list-reset113 {
+		counter-reset: item 112; }
+
+	ol.epub-list-reset114 {
+		counter-reset: item 113; }
+
+	ol.epub-list-reset115 {
+		counter-reset: item 114; }
+
+	ol.epub-list-reset116 {
+		counter-reset: item 115; }
+
+	ol.epub-list-reset117 {
+		counter-reset: item 116; }
+
+	ol.epub-list-reset118 {
+		counter-reset: item 117; }
+
+	ol.epub-list-reset119 {
+		counter-reset: item 118; }
+
+	ol.epub-list-reset120 {
+		counter-reset: item 119; }
+
+	ol.epub-list-reset121 {
+		counter-reset: item 120; }
+
+	ol.epub-list-reset122 {
+		counter-reset: item 121; }
+
+	ol.epub-list-reset123 {
+		counter-reset: item 122; }
+
+	ol.epub-list-reset124 {
+		counter-reset: item 123; }
+
+	ol.epub-list-reset125 {
+		counter-reset: item 124; }
+
+	ol.epub-list-reset126 {
+		counter-reset: item 125; }
+
+	ol.epub-list-reset127 {
+		counter-reset: item 126; }
+
+	ol.epub-list-reset128 {
+		counter-reset: item 127; }
+
+	ol.epub-list-reset129 {
+		counter-reset: item 128; }
+
+	ol.epub-list-reset130 {
+		counter-reset: item 129; }
+
+	ol.epub-list-reset131 {
+		counter-reset: item 130; }
+
+	ol.epub-list-reset132 {
+		counter-reset: item 131; }
+
+	ol.epub-list-reset133 {
+		counter-reset: item 132; }
+
+	ol.epub-list-reset134 {
+		counter-reset: item 133; }
+
+	ol.epub-list-reset135 {
+		counter-reset: item 134; }
+
+	ol.epub-list-reset136 {
+		counter-reset: item 135; }
+
+	ol.epub-list-reset137 {
+		counter-reset: item 136; }
+
+	ol.epub-list-reset138 {
+		counter-reset: item 137; }
+
+	ol.epub-list-reset139 {
+		counter-reset: item 138; }
+
+	ol.epub-list-reset140 {
+		counter-reset: item 139; }
+
+	ol.epub-list-reset141 {
+		counter-reset: item 140; }
+
+	ol.epub-list-reset142 {
+		counter-reset: item 141; }
+
+	ol.epub-list-reset143 {
+		counter-reset: item 142; }
+
+	ol.epub-list-reset144 {
+		counter-reset: item 143; }
+
+	ol.epub-list-reset145 {
+		counter-reset: item 144; }
+
+	ol.epub-list-reset146 {
+		counter-reset: item 145; }
+
+	ol.epub-list-reset147 {
+		counter-reset: item 146; }
+
+	ol.epub-list-reset148 {
+		counter-reset: item 147; }
+
+	ol.epub-list-reset149 {
+		counter-reset: item 148; }
+
+	ol.epub-list-reset150 {
+		counter-reset: item 149; }
+
+	ol.epub-list-reset151 {
+		counter-reset: item 150; }
+
+	ol.epub-list-reset152 {
+		counter-reset: item 151; }
+
+	ol.epub-list-reset153 {
+		counter-reset: item 152; }
+
+	ol.epub-list-reset154 {
+		counter-reset: item 153; }
+
+	ol.epub-list-reset155 {
+		counter-reset: item 154; }
+
+	ol.epub-list-reset156 {
+		counter-reset: item 155; }
+
+	ol.epub-list-reset157 {
+		counter-reset: item 156; }
+
+	ol.epub-list-reset158 {
+		counter-reset: item 157; }
+
+	ol.epub-list-reset159 {
+		counter-reset: item 158; }
+
+	ol.epub-list-reset160 {
+		counter-reset: item 159; }
+
+	ol.epub-list-reset161 {
+		counter-reset: item 160; }
+
+	ol.epub-list-reset162 {
+		counter-reset: item 161; }
+
+	ol.epub-list-reset163 {
+		counter-reset: item 162; }
+
+	ol.epub-list-reset164 {
+		counter-reset: item 163; }
+
+	ol.epub-list-reset165 {
+		counter-reset: item 164; }
+
+	ol.epub-list-reset166 {
+		counter-reset: item 165; }
+
+	ol.epub-list-reset167 {
+		counter-reset: item 166; }
+
+	ol.epub-list-reset168 {
+		counter-reset: item 167; }
+
+	ol.epub-list-reset169 {
+		counter-reset: item 168; }
+
+	ol.epub-list-reset170 {
+		counter-reset: item 169; }
+
+	ol.epub-list-reset171 {
+		counter-reset: item 170; }
+
+	ol.epub-list-reset172 {
+		counter-reset: item 171; }
+
+	ol.epub-list-reset173 {
+		counter-reset: item 172; }
+
+	ol.epub-list-reset174 {
+		counter-reset: item 173; }
+
+	ol.epub-list-reset175 {
+		counter-reset: item 174; }
+
+	ol.epub-list-reset176 {
+		counter-reset: item 175; }
+
+	ol.epub-list-reset177 {
+		counter-reset: item 176; }
+
+	ol.epub-list-reset178 {
+		counter-reset: item 177; }
+
+	ol.epub-list-reset179 {
+		counter-reset: item 178; }
+
+	ol.epub-list-reset180 {
+		counter-reset: item 179; }
+
+	ol.epub-list-reset181 {
+		counter-reset: item 180; }
+
+	ol.epub-list-reset182 {
+		counter-reset: item 181; }
+
+	ol.epub-list-reset183 {
+		counter-reset: item 182; }
+
+	ol.epub-list-reset184 {
+		counter-reset: item 183; }
+
+	ol.epub-list-reset185 {
+		counter-reset: item 184; }
+
+	ol.epub-list-reset186 {
+		counter-reset: item 185; }
+
+	ol.epub-list-reset187 {
+		counter-reset: item 186; }
+
+	ol.epub-list-reset188 {
+		counter-reset: item 187; }
+
+	ol.epub-list-reset189 {
+		counter-reset: item 188; }
+
+	ol.epub-list-reset190 {
+		counter-reset: item 189; }
+
+	ol.epub-list-reset191 {
+		counter-reset: item 190; }
+
+	ol.epub-list-reset192 {
+		counter-reset: item 191; }
+
+	ol.epub-list-reset193 {
+		counter-reset: item 192; }
+
+	ol.epub-list-reset194 {
+		counter-reset: item 193; }
+
+	ol.epub-list-reset195 {
+		counter-reset: item 194; }
+
+	ol.epub-list-reset196 {
+		counter-reset: item 195; }
+
+	ol.epub-list-reset197 {
+		counter-reset: item 196; }
+
+	ol.epub-list-reset198 {
+		counter-reset: item 197; }
+
+	ol.epub-list-reset199 {
+		counter-reset: item 198; }
+
+	ol.epub-list-reset200 {
+		counter-reset: item 199; }
+
+	ol.epub-list-reset201 {
+		counter-reset: item 200; }
+
+	ol.epub-list-reset202 {
+		counter-reset: item 201; }
+
+	ol.epub-list-reset203 {
+		counter-reset: item 202; }
+
+	ol.epub-list-reset204 {
+		counter-reset: item 203; }
+
+	ol.epub-list-reset205 {
+		counter-reset: item 204; }
+
+	ol.epub-list-reset206 {
+		counter-reset: item 205; }
+
+	ol.epub-list-reset207 {
+		counter-reset: item 206; }
+
+	ol.epub-list-reset208 {
+		counter-reset: item 207; }
+
+	ol.epub-list-reset209 {
+		counter-reset: item 208; }
+
+	ol.epub-list-reset210 {
+		counter-reset: item 209; }
+
+	ol.epub-list-reset211 {
+		counter-reset: item 210; }
+
+	ol.epub-list-reset212 {
+		counter-reset: item 211; }
+
+	ol.epub-list-reset213 {
+		counter-reset: item 212; }
+
+	ol.epub-list-reset214 {
+		counter-reset: item 213; }
+
+	ol.epub-list-reset215 {
+		counter-reset: item 214; }
+
+	ol.epub-list-reset216 {
+		counter-reset: item 215; }
+
+	ol.epub-list-reset217 {
+		counter-reset: item 216; }
+
+	ol.epub-list-reset218 {
+		counter-reset: item 217; }
+
+	ol.epub-list-reset219 {
+		counter-reset: item 218; }
+
+	ol.epub-list-reset220 {
+		counter-reset: item 219; }
+
+	ol.epub-list-reset221 {
+		counter-reset: item 220; }
+
+	ol.epub-list-reset222 {
+		counter-reset: item 221; }
+
+	ol.epub-list-reset223 {
+		counter-reset: item 222; }
+
+	ol.epub-list-reset224 {
+		counter-reset: item 223; }
+
+	ol.epub-list-reset225 {
+		counter-reset: item 224; }
+
+	ol.epub-list-reset226 {
+		counter-reset: item 225; }
+
+	ol.epub-list-reset227 {
+		counter-reset: item 226; }
+
+	ol.epub-list-reset228 {
+		counter-reset: item 227; }
+
+	ol.epub-list-reset229 {
+		counter-reset: item 228; }
+
+	ol.epub-list-reset230 {
+		counter-reset: item 229; }
+
+	ol.epub-list-reset231 {
+		counter-reset: item 230; }
+
+	ol.epub-list-reset232 {
+		counter-reset: item 231; }
+
+	ol.epub-list-reset233 {
+		counter-reset: item 232; }
+
+	ol.epub-list-reset234 {
+		counter-reset: item 233; }
+
+	ol.epub-list-reset235 {
+		counter-reset: item 234; }
+
+	ol.epub-list-reset236 {
+		counter-reset: item 235; }
+
+	ol.epub-list-reset237 {
+		counter-reset: item 236; }
+
+	ol.epub-list-reset238 {
+		counter-reset: item 237; }
+
+	ol.epub-list-reset239 {
+		counter-reset: item 238; }
+
+	ol.epub-list-reset240 {
+		counter-reset: item 239; }
+
+	ol.epub-list-reset241 {
+		counter-reset: item 240; }
+
+	ol.epub-list-reset242 {
+		counter-reset: item 241; }
+
+	ol.epub-list-reset243 {
+		counter-reset: item 242; }
+
+	ol.epub-list-reset244 {
+		counter-reset: item 243; }
+
+	ol.epub-list-reset245 {
+		counter-reset: item 244; }
+
+	ol.epub-list-reset246 {
+		counter-reset: item 245; }
+
+	ol.epub-list-reset247 {
+		counter-reset: item 246; }
+
+	ol.epub-list-reset248 {
+		counter-reset: item 247; }
+
+	ol.epub-list-reset249 {
+		counter-reset: item 248; }
+
+	ol.epub-list-reset250 {
+		counter-reset: item 249; }
+
+	ol.epub-list-reset251 {
+		counter-reset: item 250; }
+
+	ol.epub-list-reset252 {
+		counter-reset: item 251; }
+
+	ol.epub-list-reset253 {
+		counter-reset: item 252; }
+
+	ol.epub-list-reset254 {
+		counter-reset: item 253; }
+
+	ol.epub-list-reset255 {
+		counter-reset: item 254; }
+
+	ol.epub-list-reset256 {
+		counter-reset: item 255; }
+
+	ol.epub-list-reset257 {
+		counter-reset: item 256; }
+
+	ol.epub-list-reset258 {
+		counter-reset: item 257; }
+
+	ol.epub-list-reset259 {
+		counter-reset: item 258; }
+
+	ol.epub-list-reset260 {
+		counter-reset: item 259; }
+
+	ol.epub-list-reset261 {
+		counter-reset: item 260; }
+
+	ol.epub-list-reset262 {
+		counter-reset: item 261; }
+
+	ol.epub-list-reset263 {
+		counter-reset: item 262; }
+
+	ol.epub-list-reset264 {
+		counter-reset: item 263; }
+
+	ol.epub-list-reset265 {
+		counter-reset: item 264; }
+
+	ol.epub-list-reset266 {
+		counter-reset: item 265; }
+
+	ol.epub-list-reset267 {
+		counter-reset: item 266; }
+
+	ol.epub-list-reset268 {
+		counter-reset: item 267; }
+
+	ol.epub-list-reset269 {
+		counter-reset: item 268; }
+
+	ol.epub-list-reset270 {
+		counter-reset: item 269; }
+
+	ol.epub-list-reset271 {
+		counter-reset: item 270; }
+
+	ol.epub-list-reset272 {
+		counter-reset: item 271; }
+
+	ol.epub-list-reset273 {
+		counter-reset: item 272; }
+
+	ol.epub-list-reset274 {
+		counter-reset: item 273; }
+
+	ol.epub-list-reset275 {
+		counter-reset: item 274; }
+
+	ol.epub-list-reset276 {
+		counter-reset: item 275; }
+
+	ol.epub-list-reset277 {
+		counter-reset: item 276; }
+
+	ol.epub-list-reset278 {
+		counter-reset: item 277; }
+
+	ol.epub-list-reset279 {
+		counter-reset: item 278; }
+
+	ol.epub-list-reset280 {
+		counter-reset: item 279; }
+
+	ol.epub-list-reset281 {
+		counter-reset: item 280; }
+
+	ol.epub-list-reset282 {
+		counter-reset: item 281; }
+
+	ol.epub-list-reset283 {
+		counter-reset: item 282; }
+
+	ol.epub-list-reset284 {
+		counter-reset: item 283; }
+
+	ol.epub-list-reset285 {
+		counter-reset: item 284; }
+
+	ol.epub-list-reset286 {
+		counter-reset: item 285; }
+
+	ol.epub-list-reset287 {
+		counter-reset: item 286; }
+
+	ol.epub-list-reset288 {
+		counter-reset: item 287; }
+
+	ol.epub-list-reset289 {
+		counter-reset: item 288; }
+
+	ol.epub-list-reset290 {
+		counter-reset: item 289; }
+
+	ol.epub-list-reset291 {
+		counter-reset: item 290; }
+
+	ol.epub-list-reset292 {
+		counter-reset: item 291; }
+
+	ol.epub-list-reset293 {
+		counter-reset: item 292; }
+
+	ol.epub-list-reset294 {
+		counter-reset: item 293; }
+
+	ol.epub-list-reset295 {
+		counter-reset: item 294; }
+
+	ol.epub-list-reset296 {
+		counter-reset: item 295; }
+
+	ol.epub-list-reset297 {
+		counter-reset: item 296; }
+
+	ol.epub-list-reset298 {
+		counter-reset: item 297; }
+
+	ol.epub-list-reset299 {
+		counter-reset: item 298; }
+
+	ol.epub-list-reset300 {
+		counter-reset: item 299; }
+
+	ol.epub-list-reset301 {
+		counter-reset: item 300; }
+
+	ol.epub-list-reset302 {
+		counter-reset: item 301; }
+
+	ol.epub-list-reset303 {
+		counter-reset: item 302; }
+
+	ol.epub-list-reset304 {
+		counter-reset: item 303; }
+
+	ol.epub-list-reset305 {
+		counter-reset: item 304; }
+
+	ol.epub-list-reset306 {
+		counter-reset: item 305; }
+
+	ol.epub-list-reset307 {
+		counter-reset: item 306; }
+
+	ol.epub-list-reset308 {
+		counter-reset: item 307; }
+
+	ol.epub-list-reset309 {
+		counter-reset: item 308; }
+
+	ol.epub-list-reset310 {
+		counter-reset: item 309; }
+
+	ol.epub-list-reset311 {
+		counter-reset: item 310; }
+
+	ol.epub-list-reset312 {
+		counter-reset: item 311; }
+
+	ol.epub-list-reset313 {
+		counter-reset: item 312; }
+
+	ol.epub-list-reset314 {
+		counter-reset: item 313; }
+
+	ol.epub-list-reset315 {
+		counter-reset: item 314; }
+
+	ol.epub-list-reset316 {
+		counter-reset: item 315; }
+
+	ol.epub-list-reset317 {
+		counter-reset: item 316; }
+
+	ol.epub-list-reset318 {
+		counter-reset: item 317; }
+
+	ol.epub-list-reset319 {
+		counter-reset: item 318; }
+
+	ol.epub-list-reset320 {
+		counter-reset: item 319; }
+
+	ol.epub-list-reset321 {
+		counter-reset: item 320; }
+
+	ol.epub-list-reset322 {
+		counter-reset: item 321; }
+
+	ol.epub-list-reset323 {
+		counter-reset: item 322; }
+
+	ol.epub-list-reset324 {
+		counter-reset: item 323; }
+
+	ol.epub-list-reset325 {
+		counter-reset: item 324; }
+
+	ol.epub-list-reset326 {
+		counter-reset: item 325; }
+
+	ol.epub-list-reset327 {
+		counter-reset: item 326; }
+
+	ol.epub-list-reset328 {
+		counter-reset: item 327; }
+
+	ol.epub-list-reset329 {
+		counter-reset: item 328; }
+
+	ol.epub-list-reset330 {
+		counter-reset: item 329; }
+
+	ol.epub-list-reset331 {
+		counter-reset: item 330; }
+
+	ol.epub-list-reset332 {
+		counter-reset: item 331; }
+
+	ol.epub-list-reset333 {
+		counter-reset: item 332; }
+
+	ol.epub-list-reset334 {
+		counter-reset: item 333; }
+
+	ol.epub-list-reset335 {
+		counter-reset: item 334; }
+
+	ol.epub-list-reset336 {
+		counter-reset: item 335; }
+
+	ol.epub-list-reset337 {
+		counter-reset: item 336; }
+
+	ol.epub-list-reset338 {
+		counter-reset: item 337; }
+
+	ol.epub-list-reset339 {
+		counter-reset: item 338; }
+
+	ol.epub-list-reset340 {
+		counter-reset: item 339; }
+
+	ol.epub-list-reset341 {
+		counter-reset: item 340; }
+
+	ol.epub-list-reset342 {
+		counter-reset: item 341; }
+
+	ol.epub-list-reset343 {
+		counter-reset: item 342; }
+
+	ol.epub-list-reset344 {
+		counter-reset: item 343; }
+
+	ol.epub-list-reset345 {
+		counter-reset: item 344; }
+
+	ol.epub-list-reset346 {
+		counter-reset: item 345; }
+
+	ol.epub-list-reset347 {
+		counter-reset: item 346; }
+
+	ol.epub-list-reset348 {
+		counter-reset: item 347; }
+
+	ol.epub-list-reset349 {
+		counter-reset: item 348; }
+
+	ol.epub-list-reset350 {
+		counter-reset: item 349; }
+
+	ol.epub-list-reset351 {
+		counter-reset: item 350; }
+
+	ol.epub-list-reset352 {
+		counter-reset: item 351; }
+
+	ol.epub-list-reset353 {
+		counter-reset: item 352; }
+
+	ol.epub-list-reset354 {
+		counter-reset: item 353; }
+
+	ol.epub-list-reset355 {
+		counter-reset: item 354; }
+
+	ol.epub-list-reset356 {
+		counter-reset: item 355; }
+
+	ol.epub-list-reset357 {
+		counter-reset: item 356; }
+
+	ol.epub-list-reset358 {
+		counter-reset: item 357; }
+
+	ol.epub-list-reset359 {
+		counter-reset: item 358; }
+
+	ol.epub-list-reset360 {
+		counter-reset: item 359; }
+
+	ol.epub-list-reset361 {
+		counter-reset: item 360; }
+
+	ol.epub-list-reset362 {
+		counter-reset: item 361; }
+
+	ol.epub-list-reset363 {
+		counter-reset: item 362; }
+
+	ol.epub-list-reset364 {
+		counter-reset: item 363; }
+
+	ol.epub-list-reset365 {
+		counter-reset: item 364; }
+
+	ol.epub-list-reset366 {
+		counter-reset: item 365; }
+
+	ol.epub-list-reset367 {
+		counter-reset: item 366; }
+
+	ol.epub-list-reset368 {
+		counter-reset: item 367; }
+
+	ol.epub-list-reset369 {
+		counter-reset: item 368; }
+
+	ol.epub-list-reset370 {
+		counter-reset: item 369; }
+
+	ol.epub-list-reset371 {
+		counter-reset: item 370; }
+
+	ol.epub-list-reset372 {
+		counter-reset: item 371; }
+
+	ol.epub-list-reset373 {
+		counter-reset: item 372; }
+
+	ol.epub-list-reset374 {
+		counter-reset: item 373; }
+
+	ol.epub-list-reset375 {
+		counter-reset: item 374; }
+
+	ol.epub-list-reset376 {
+		counter-reset: item 375; }
+
+	ol.epub-list-reset377 {
+		counter-reset: item 376; }
+
+	ol.epub-list-reset378 {
+		counter-reset: item 377; }
+
+	ol.epub-list-reset379 {
+		counter-reset: item 378; }
+
+	ol.epub-list-reset380 {
+		counter-reset: item 379; }
+
+	ol.epub-list-reset381 {
+		counter-reset: item 380; }
+
+	ol.epub-list-reset382 {
+		counter-reset: item 381; }
+
+	ol.epub-list-reset383 {
+		counter-reset: item 382; }
+
+	ol.epub-list-reset384 {
+		counter-reset: item 383; }
+
+	ol.epub-list-reset385 {
+		counter-reset: item 384; }
+
+	ol.epub-list-reset386 {
+		counter-reset: item 385; }
+
+	ol.epub-list-reset387 {
+		counter-reset: item 386; }
+
+	ol.epub-list-reset388 {
+		counter-reset: item 387; }
+
+	ol.epub-list-reset389 {
+		counter-reset: item 388; }
+
+	ol.epub-list-reset390 {
+		counter-reset: item 389; }
+
+	ol.epub-list-reset391 {
+		counter-reset: item 390; }
+
+	ol.epub-list-reset392 {
+		counter-reset: item 391; }
+
+	ol.epub-list-reset393 {
+		counter-reset: item 392; }
+
+	ol.epub-list-reset394 {
+		counter-reset: item 393; }
+
+	ol.epub-list-reset395 {
+		counter-reset: item 394; }
+
+	ol.epub-list-reset396 {
+		counter-reset: item 395; }
+
+	ol.epub-list-reset397 {
+		counter-reset: item 396; }
+
+	ol.epub-list-reset398 {
+		counter-reset: item 397; }
+
+	ol.epub-list-reset399 {
+		counter-reset: item 398; }
+
+	ol.epub-list-reset400 {
+		counter-reset: item 399; }
+
+	ol.epub-list-reset401 {
+		counter-reset: item 400; }
+
+	ol.epub-list-reset402 {
+		counter-reset: item 401; }
+
+	ol.epub-list-reset403 {
+		counter-reset: item 402; }
+
+	ol.epub-list-reset404 {
+		counter-reset: item 403; }
+
+	ol.epub-list-reset405 {
+		counter-reset: item 404; }
+
+	ol.epub-list-reset406 {
+		counter-reset: item 405; }
+
+	ol.epub-list-reset407 {
+		counter-reset: item 406; }
+
+	ol.epub-list-reset408 {
+		counter-reset: item 407; }
+
+	ol.epub-list-reset409 {
+		counter-reset: item 408; }
+
+	ol.epub-list-reset410 {
+		counter-reset: item 409; }
+
+	ol.epub-list-reset411 {
+		counter-reset: item 410; }
+
+	ol.epub-list-reset412 {
+		counter-reset: item 411; }
+
+	ol.epub-list-reset413 {
+		counter-reset: item 412; }
+
+	ol.epub-list-reset414 {
+		counter-reset: item 413; }
+
+	ol.epub-list-reset415 {
+		counter-reset: item 414; }
+
+	ol.epub-list-reset416 {
+		counter-reset: item 415; }
+
+	ol.epub-list-reset417 {
+		counter-reset: item 416; }
+
+	ol.epub-list-reset418 {
+		counter-reset: item 417; }
+
+	ol.epub-list-reset419 {
+		counter-reset: item 418; }
+
+	ol.epub-list-reset420 {
+		counter-reset: item 419; }
+
+	ol.epub-list-reset421 {
+		counter-reset: item 420; }
+
+	ol.epub-list-reset422 {
+		counter-reset: item 421; }
+
+	ol.epub-list-reset423 {
+		counter-reset: item 422; }
+
+	ol.epub-list-reset424 {
+		counter-reset: item 423; }
+
+	ol.epub-list-reset425 {
+		counter-reset: item 424; }
+
+	ol.epub-list-reset426 {
+		counter-reset: item 425; }
+
+	ol.epub-list-reset427 {
+		counter-reset: item 426; }
+
+	ol.epub-list-reset428 {
+		counter-reset: item 427; }
+
+	ol.epub-list-reset429 {
+		counter-reset: item 428; }
+
+	ol.epub-list-reset430 {
+		counter-reset: item 429; }
+
+	ol.epub-list-reset431 {
+		counter-reset: item 430; }
+
+	ol.epub-list-reset432 {
+		counter-reset: item 431; }
+
+	ol.epub-list-reset433 {
+		counter-reset: item 432; }
+
+	ol.epub-list-reset434 {
+		counter-reset: item 433; }
+
+	ol.epub-list-reset435 {
+		counter-reset: item 434; }
+
+	ol.epub-list-reset436 {
+		counter-reset: item 435; }
+
+	ol.epub-list-reset437 {
+		counter-reset: item 436; }
+
+	ol.epub-list-reset438 {
+		counter-reset: item 437; }
+
+	ol.epub-list-reset439 {
+		counter-reset: item 438; }
+
+	ol.epub-list-reset440 {
+		counter-reset: item 439; }
+
+	ol.epub-list-reset441 {
+		counter-reset: item 440; }
+
+	ol.epub-list-reset442 {
+		counter-reset: item 441; }
+
+	ol.epub-list-reset443 {
+		counter-reset: item 442; }
+
+	ol.epub-list-reset444 {
+		counter-reset: item 443; }
+
+	ol.epub-list-reset445 {
+		counter-reset: item 444; }
+
+	ol.epub-list-reset446 {
+		counter-reset: item 445; }
+
+	ol.epub-list-reset447 {
+		counter-reset: item 446; }
+
+	ol.epub-list-reset448 {
+		counter-reset: item 447; }
+
+	ol.epub-list-reset449 {
+		counter-reset: item 448; }
+
+	ol.epub-list-reset450 {
+		counter-reset: item 449; }
+
+	ol.epub-list-reset451 {
+		counter-reset: item 450; }
+
+	ol.epub-list-reset452 {
+		counter-reset: item 451; }
+
+	ol.epub-list-reset453 {
+		counter-reset: item 452; }
+
+	ol.epub-list-reset454 {
+		counter-reset: item 453; }
+
+	ol.epub-list-reset455 {
+		counter-reset: item 454; }
+
+	ol.epub-list-reset456 {
+		counter-reset: item 455; }
+
+	ol.epub-list-reset457 {
+		counter-reset: item 456; }
+
+	ol.epub-list-reset458 {
+		counter-reset: item 457; }
+
+	ol.epub-list-reset459 {
+		counter-reset: item 458; }
+
+	ol.epub-list-reset460 {
+		counter-reset: item 459; }
+
+	ol.epub-list-reset461 {
+		counter-reset: item 460; }
+
+	ol.epub-list-reset462 {
+		counter-reset: item 461; }
+
+	ol.epub-list-reset463 {
+		counter-reset: item 462; }
+
+	ol.epub-list-reset464 {
+		counter-reset: item 463; }
+
+	ol.epub-list-reset465 {
+		counter-reset: item 464; }
+
+	ol.epub-list-reset466 {
+		counter-reset: item 465; }
+
+	ol.epub-list-reset467 {
+		counter-reset: item 466; }
+
+	ol.epub-list-reset468 {
+		counter-reset: item 467; }
+
+	ol.epub-list-reset469 {
+		counter-reset: item 468; }
+
+	ol.epub-list-reset470 {
+		counter-reset: item 469; }
+
+	ol.epub-list-reset471 {
+		counter-reset: item 470; }
+
+	ol.epub-list-reset472 {
+		counter-reset: item 471; }
+
+	ol.epub-list-reset473 {
+		counter-reset: item 472; }
+
+	ol.epub-list-reset474 {
+		counter-reset: item 473; }
+
+	ol.epub-list-reset475 {
+		counter-reset: item 474; }
+
+	ol.epub-list-reset476 {
+		counter-reset: item 475; }
+
+	ol.epub-list-reset477 {
+		counter-reset: item 476; }
+
+	ol.epub-list-reset478 {
+		counter-reset: item 477; }
+
+	ol.epub-list-reset479 {
+		counter-reset: item 478; }
+
+	ol.epub-list-reset480 {
+		counter-reset: item 479; }
+
+	ol.epub-list-reset481 {
+		counter-reset: item 480; }
+
+	ol.epub-list-reset482 {
+		counter-reset: item 481; }
+
+	ol.epub-list-reset483 {
+		counter-reset: item 482; }
+
+	ol.epub-list-reset484 {
+		counter-reset: item 483; }
+
+	ol.epub-list-reset485 {
+		counter-reset: item 484; }
+
+	ol.epub-list-reset486 {
+		counter-reset: item 485; }
+
+	ol.epub-list-reset487 {
+		counter-reset: item 486; }
+
+	ol.epub-list-reset488 {
+		counter-reset: item 487; }
+
+	ol.epub-list-reset489 {
+		counter-reset: item 488; }
+
+	ol.epub-list-reset490 {
+		counter-reset: item 489; }
+
+	ol.epub-list-reset491 {
+		counter-reset: item 490; }
+
+	ol.epub-list-reset492 {
+		counter-reset: item 491; }
+
+	ol.epub-list-reset493 {
+		counter-reset: item 492; }
+
+	ol.epub-list-reset494 {
+		counter-reset: item 493; }
+
+	ol.epub-list-reset495 {
+		counter-reset: item 494; }
+
+	ol.epub-list-reset496 {
+		counter-reset: item 495; }
+
+	ol.epub-list-reset497 {
+		counter-reset: item 496; }
+
+	ol.epub-list-reset498 {
+		counter-reset: item 497; }
+
+	ol.epub-list-reset499 {
+		counter-reset: item 498; }
+
+	ol.epub-list-reset500 {
+		counter-reset: item 499; }
+
+	/*
+	ol.epub-list-reset1 { counter-reset: item 0; }
+	ol.epub-list-reset2 { counter-reset: item 1; }
+	ol.epub-list-reset3 { counter-reset: item 2; }
+	ol.epub-list-reset4 { counter-reset: item 3; }
+	ol.epub-list-reset5 { counter-reset: item 4; }
+	ol.epub-list-reset6 { counter-reset: item 5; }
+	ol.epub-list-reset7 { counter-reset: item 6; }
+	ol.epub-list-reset8 { counter-reset: item 7; }
+	ol.epub-list-reset9 { counter-reset: item 8; }
+	ol.epub-list-reset10 { counter-reset: item 9; }
+	*/
+	/*for lists with letters with periods, e.g. a. */
+	ol.epub-lcletter > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-lcletter > li:before {
+		counter-increment: item;
+		content: counter(item,lower-alpha) ". ";
+		position: absolute;
+		left: -1.4em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with lower case in parens, e.g. a) */
+	ol.epub-parenrightlistlcletter > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-parenrightlistlcletter > li:before {
+		counter-increment: item;
+		content: counter(item,lower-alpha) ") ";
+		position: absolute;
+		left: -1.6em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with lower case in parens, e.g. a] */
+	ol.epub-bracketrightlistlcletter > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-bracketrightlistlcletter > li:before {
+		counter-increment: item;
+		content: counter(item,lower-alpha) "] ";
+		position: absolute;
+		left: -1.6em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with lower case in braces, e.g. a} */
+	ol.epub-bracerightlistlcletter > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-bracerightlistlcletter > li:before {
+		counter-increment: item;
+		content: counter(item,lower-alpha) "} ";
+		position: absolute;
+		left: -1.6em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with lower case in parens, e.g. (a) */
+	ol.epub-parenlistlcletter > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-parenlistlcletter > li:before {
+		counter-increment: item;
+		content: "(" counter(item,lower-alpha) ") ";
+		position: absolute;
+		left: -1.6em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with lower case in parens, e.g. [a] */
+	ol.epub-bracketlistlcletter > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-bracketlistlcletter > li:before {
+		counter-increment: item;
+		content: "[" counter(item,lower-alpha) "] ";
+		position: absolute;
+		left: -1.6em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with lower case in braces, e.g. {a} */
+	ol.epub-bracelistlcletter > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-bracelistlcletter > li:before {
+		counter-increment: item;
+		content: "{" counter(item,lower-alpha) "} ";
+		position: absolute;
+		left: -1.6em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with letters with periods, e.g. A. */
+	ol.epub-ucletter > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-ucletter > li:before {
+		counter-increment: item;
+		content: counter(item,upper-alpha) ". ";
+		position: absolute;
+		left: -1.4em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with lower case in parens, e.g. A) */
+	ol.epub-parenrightlistucletter > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-parenrightlistucletter > li:before {
+		counter-increment: item;
+		content: counter(item,upper-alpha) ") ";
+		position: absolute;
+		left: -1.6em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with lower case in brackets, e.g. A] */
+	ol.epub-bracketrightlistucletter > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-bracketrightlistucletter > li:before {
+		counter-increment: item;
+		content: counter(item,upper-alpha) "] ";
+		position: absolute;
+		left: -1.6em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with lower case in breaces, e.g. A} */
+	ol.epub-bracerightlistucletter > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-bracerightlistucletter > li:before {
+		counter-increment: item;
+		content: counter(item,upper-alpha) "} ";
+		position: absolute;
+		left: -1.6em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with lower case in parens, e.g. (A) */
+	ol.epub-parenlistucletter > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-parenlistucletter > li:before {
+		counter-increment: item;
+		content: "(" counter(item,upper-alpha) ") ";
+		position: absolute;
+		left: -1.6em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with lower case in brackets, e.g. [A] */
+	ol.epub-bracketlistucletter > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-bracketlistucletter > li:before {
+		counter-increment: item;
+		content: "[" counter(item,upper-alpha) "] ";
+		position: absolute;
+		left: -1.6em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with lower case in breaces, e.g. {A} */
+	ol.epub-bracelistucletter > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-bracelistucletter > li:before {
+		counter-increment: item;
+		content: "{" counter(item,upper-alpha) "} ";
+		position: absolute;
+		left: -1.6em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with numbers with periods, e.g. 1. */
+	ol.epub-decimal > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-decimal > li:before {
+		counter-increment: item;
+		content: counter(item,decimal) ". ";
+		position: absolute;
+		left: -1.65em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*https://issues.wrycan.com/browse/GIRAFFE-589*/
+	ol.epub-list-before-wider.epub-decimal > li:before {
+		counter-increment: item;
+		content: counter(item,decimal) ". ";
+		position: absolute;
+		left: -2.2em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with decimals in parens, e.g. 1) */
+	ol.epub-parenrightlistdecimal > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-parenrightlistdecimal > li:before {
+		counter-increment: item;
+		content: counter(item,decimal) ") ";
+		position: absolute;
+		left: -2em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*https://issues.wrycan.com/browse/GIRAFFE-589*/
+	ol.epub-list-before-wider.epub-parenrightlistdecimal > li:before {
+		counter-increment: item;
+		content: counter(item,decimal) ". ";
+		position: absolute;
+		left: -2.4em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with decimals in brackets, e.g. 1] */
+	ol.epub-bracketrightlistdecimal > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-bracketrightlistdecimal > li:before {
+		counter-increment: item;
+		content: counter(item,decimal) "] ";
+		position: absolute;
+		left: -2em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*https://issues.wrycan.com/browse/GIRAFFE-589*/
+	ol.epub-list-before-wider.epub-bracketrightlistdecimal > li:before {
+		counter-increment: item;
+		content: counter(item,decimal) ". ";
+		position: absolute;
+		left: -2.4em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with decimals in brace, e.g. 1} */
+	ol.epub-bracerightlistdecimal > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-bracerightlistdecimal > li:before {
+		counter-increment: item;
+		content: counter(item,decimal) "} ";
+		position: absolute;
+		left: -2em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*https://issues.wrycan.com/browse/GIRAFFE-589*/
+	ol.epub-list-before-wider.epub-bracerightlistdecimal > li:before {
+		counter-increment: item;
+		content: counter(item,decimal) ". ";
+		position: absolute;
+		left: -2.4em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with decimals in parens, e.g. (1) */
+	ol.epub-parenlistdecimal > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-parenlistdecimal > li:before {
+		counter-increment: item;
+		content: "(" counter(item,decimal) ") ";
+		position: absolute;
+		left: -2em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*https://issues.wrycan.com/browse/GIRAFFE-589*/
+	ol.epub-list-before-wider.epub-parenlistdecimal > li:before {
+		counter-increment: item;
+		content: counter(item,decimal) ". ";
+		position: absolute;
+		left: -2.6em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with decimals in brackets, e.g. [1] */
+	ol.epub-bracketlistdecimal > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-bracketlistdecimal > li:before {
+		counter-increment: item;
+		content: "[" counter(item,decimal) "] ";
+		position: absolute;
+		left: -2em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*https://issues.wrycan.com/browse/GIRAFFE-589*/
+	ol.epub-list-before-wider.epub-bracketlistdecimal > li:before {
+		counter-increment: item;
+		content: counter(item,decimal) ". ";
+		position: absolute;
+		left: -2.6em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with decimals in brace, e.g. {1} */
+	ol.epub-bracelistdecimal > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-bracelistdecimal > li:before {
+		counter-increment: item;
+		content: "{" counter(item,decimal) "} ";
+		position: absolute;
+		left: -2em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*https://issues.wrycan.com/browse/GIRAFFE-589*/
+	ol.epub-list-before-wider.epub-bracelistdecimal > li:before {
+		counter-increment: item;
+		content: counter(item,decimal) ". ";
+		position: absolute;
+		left: -2.6em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with uppercase roman with periods, e.g. I. */
+	ol.epub-ucroman > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-ucroman > li:before {
+		counter-increment: item;
+		content: counter(item,upper-roman) ". ";
+		position: absolute;
+		left: -1.4em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with uppercase roman with parens, e.g. I) */
+	ol.epub-parenrightlistucroman > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-parenrightlistucroman > li:before {
+		counter-increment: item;
+		content: counter(item,upper-roman) ") ";
+		position: absolute;
+		left: -1.4em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with uppercase roman with brackets, e.g. I] */
+	ol.epub-bracketrightlistucroman > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-bracketrightlistucroman > li:before {
+		counter-increment: item;
+		content: counter(item,upper-roman) "] ";
+		position: absolute;
+		left: -1.4em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with uppercase roman with braces, e.g. I} */
+	ol.epub-bracerightlistucroman > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-bracerightlistucroman > li:before {
+		counter-increment: item;
+		content: counter(item,upper-roman) "} ";
+		position: absolute;
+		left: -1.4em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with uppercase roman with parens, e.g. (I) */
+	ol.epub-parenlistucroman > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-parenlistucroman > li:before {
+		counter-increment: item;
+		content: "(" counter(item,upper-roman) ") ";
+		position: absolute;
+		left: -1.4em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with uppercase roman with brackets, e.g. [I] */
+	ol.epub-bracketlistucroman > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-bracketlistucroman > li:before {
+		counter-increment: item;
+		content: "[" counter(item,upper-roman) "] ";
+		position: absolute;
+		left: -1.4em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with uppercase roman with braces, e.g. {I} */
+	ol.epub-bracelistucroman > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-bracelistucroman > li:before {
+		counter-increment: item;
+		content: "{" counter(item,upper-roman) "} ";
+		position: absolute;
+		left: -1.4em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with lower roman with periods, e.g. i. */
+	ol.epub-lcroman > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-lcroman > li:before {
+		counter-increment: item;
+		content: counter(item,lower-roman) ". ";
+		position: absolute;
+		left: -1.4em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with lower roman with parens, e.g. i) */
+	ol.epub-parenrightlistlcroman > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-parenrightlistlcroman > li:before {
+		counter-increment: item;
+		content: counter(item,lower-roman) ") ";
+		position: absolute;
+		left: -1.6em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with lower roman with brackets, e.g. i] */
+	ol.epub-bracketrightlistlcroman > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-bracketrightlistlcroman > li:before {
+		counter-increment: item;
+		content: counter(item,lower-roman) "] ";
+		position: absolute;
+		left: -1.6em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with lower roman with braces, e.g. i} */
+	ol.epub-bracerightlistlcroman > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-bracerightlistlcroman > li:before {
+		counter-increment: item;
+		content: counter(item,lower-roman) "} ";
+		position: absolute;
+		left: -1.6em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with lower roman with parens, e.g. (i) */
+	ol.epub-parenlistlcroman > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-parenlistlcroman > li:before {
+		counter-increment: item;
+		content: "(" counter(item,lower-roman) ") ";
+		position: absolute;
+		left: -1.6em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with lower roman with brackets, e.g. [i] */
+	ol.epub-bracketlistlcroman > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-bracketlistlcroman > li:before {
+		counter-increment: item;
+		content: "[" counter(item,lower-roman) "] ";
+		position: absolute;
+		left: -1.6em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/*for lists with lower roman with braces, e.g. {i} */
+	ol.epub-bracelistlcroman > li {
+		list-style: none;
+		position: relative; }
+
+	ol.epub-bracelistlcroman > li:before {
+		counter-increment: item;
+		content: "{" counter(item,lower-roman) "} ";
+		position: absolute;
+		left: -1.6em;
+		line-height: 19px;
+		font-size: 15px; }
+
+	/* this is style for term used in backmatter glossary */
+	div.epub-glossary-term p.epub-glossary-term-para {
+		margin-left: 20px;
+		text-indent: -20px; }
+		div.epub-glossary-term p.epub-glossary-term-para span.epub-glossary-term {
+			font-weight: bold; }
+	div.epub-glossary-term p.epub-glossary-para {
+		margin-left: 20px; }
+
+	/* inline */
+	span.epub-glossary-term {
+		font-weight: bold; }
+
+	/* end glossary/term */
+	.epub-toctable tr td {
+		padding: 5px 0px; }
+
+	/* table */
+	.epub-table-caption {
+		font-weight: bold; }
+		.epub-table-caption p {
+			margin-bottom: 10px;
+			font-weight: inherit;
+			/*https://issues.wrycan.com/browse/GIRAFFE-417*/
+			text-indent: 0px; }
+
+	table.epub-table-layoutonly tr th.epub-cell-valign-top, table.epub-table-layoutonly tr td.epub-cell-valign-top, table.epub-table tr th.epub-cell-valign-top, table.epub-table tr td.epub-cell-valign-top {
+		vertical-align: top; }
+	table.epub-table-layoutonly tr th.epub-cell-valign-middle, table.epub-table-layoutonly tr td.epub-cell-valign-middle, table.epub-table tr th.epub-cell-valign-middle, table.epub-table tr td.epub-cell-valign-middle {
+		vertical-align: middle; }
+	table.epub-table-layoutonly tr th.epub-cell-valign-bottom, table.epub-table-layoutonly tr td.epub-cell-valign-bottom, table.epub-table tr th.epub-cell-valign-bottom, table.epub-table tr td.epub-cell-valign-bottom {
+		vertical-align: bottom; }
+
+	.epub-table-container {
+		/*this is used for the overflow scroll*/
+		margin: 0 0 30px 0; }
+		.epub-table-container .epub-table {
+			margin: 5px 0px; }
+		.epub-table-container.epub-pagewide {
+			overflow-x: scroll; }
+
+	.epub-table-layoutonly {
+		padding: 10px 0 20px 0;
+		margin: 30px 0 0 0;
+		width: 100%;
+		border: 0px; }
+		.epub-table-layoutonly tr {
+			background: #fff; }
+			.epub-table-layoutonly tr:nth-child(even), .epub-table-layoutonly tr:nth-child(odd) {
+				background: #fff; }
+		.epub-table-layoutonly th {
+			border: 0px;
+			font-size: 13px;
+			line-height: 19px;
+			color: #333;
+			background-color: #fff;
+			vertical-align: bottom;
+			padding: 0 10px; }
+			.epub-table-layoutonly th p {
+				font-weight: bold;
+				text-align: left;
+				text-indent: 0px; }
+			.epub-table-layoutonly th p:last-child {
+				margin-bottom: 5px; }
+		.epub-table-layoutonly td {
+			border: 0px;
+			font-size: 13px;
+			line-height: 13px;
+			color: #333;
+			vertical-align: top;
+			padding: 7px 10px; }
+			.epub-table-layoutonly td p {
+				text-align: left;
+				text-indent: 0px; }
+			.epub-table-layoutonly td p:last-child {
+				margin-bottom: 5px; }
+
+	table.epub-table tr th, table.epub-table tr td {
+		border: 1px solid #ccc;
+		border-collapse: collapse; }
+
+	.epub-table {
+		border-collapse: collapse;
+		border-top: 5px solid #799d57;
+		padding: 10px 0 20px 0;
+		border-bottom: 5px solid #799d57;
+		margin: 30px 0 0 0;
+		width: 100%; }
+		.epub-table tr {
+			background: #fff; }
+			.epub-table tr:nth-child(even), .epub-table tr:nth-child(odd) {
+				background: #fff; }
+		.epub-table th {
+			font-size: 13px;
+			line-height: 19px;
+			color: #333;
+			vertical-align: bottom;
+			padding: 0 10px;
+			font-weight: bold; }
+			.epub-table th p {
+				font-weight: bold;
+				text-align: left;
+				text-indent: 0px; }
+			.epub-table th p:last-child {
+				margin-bottom: 5px; }
+		.epub-table td {
+			font-size: 13px;
+			line-height: 13px;
+			color: #333;
+			vertical-align: top;
+			padding: 7px 10px; }
+			.epub-table td p {
+				text-align: left;
+				text-indent: 0px; }
+			.epub-table td p:last-child {
+				margin-bottom: 5px; }
+
+	.epub-supplemental-content p {
+		font-size: 14px; }
+
+	.epub-supplemental-heading h2 > p {
+		font-size: 23px;
+		line-height: 29px;
+		margin-bottom: 15px; }
+
+	.epub-supplemental-subheading h3 > p {
+		font-size: 15px;
+		line-height: 19px;
+		margin-bottom: 15px; }
+
+	.epub-frontmatter-advisor {
+		margin-bottom: 15px; }
+		.epub-frontmatter-advisor .name {
+			font-weight: bold; }
+
+	.epub-frontmatter-author {
+		margin-bottom: 15px; }
+		.epub-frontmatter-author .name {
+			font-weight: bold; }
+		.epub-frontmatter-author .bio {
+			font-style: italic; }
+
+	.epub-dedication > p {
+		text-align: center;
+		font-style: italic;
+		/*https://issues.wrycan.com/browse/GIRAFFE-417*/
+		text-indent: 0px; }
+
+	/* generic spacing for a section */
+	.epub-section {
+		margin: 10px 0px; }
+
+	.epub-outline {
+		margin-left: 24px; }
+		.epub-outline .epub-label {
+			display: block;
+			float: left;
+			margin-left: -24px; }
+
+	.epub-heading.left {
+		float: none !important;
+		text-align: left; }
+	.epub-heading.center {
+		float: none !important;
+		text-align: center; }
+	.epub-heading.right {
+		float: none !important;
+		text-align: right; }
+	.epub-heading p {
+		/*https://issues.wrycan.com/browse/GIRAFFE-417*/
+		text-indent: 0px; }
+
+	/*https://issues.wrycan.com/browse/GIRAFFE-417*/
+	.epub-heading p {
+		text-indent: 0px; }
+
+	/* A-Head*/
+	.epub-ahead {
+		margin-top: 27px; }
+		.epub-ahead .epub-heading h2 > p {
+			font-size: 23px;
+			line-height: 27px;
+			margin-bottom: 15px; }
+		.epub-ahead.epub-override > .epub-heading > p {
+			font-size: 23px;
+			line-height: 27px;
+			margin-bottom: 15px; }
+
+	/*https://issues.wrycan.com/browse/GIRAFFE-416*/
+	.epub-bhead {
+		margin-top: 23px; }
+		.epub-bhead > .epub-heading h3 > p {
+			font-size: 19px;
+			line-height: 23px;
+			margin-bottom: 13px;
+			font-weight: bold; }
+		.epub-bhead.epub-override > .epub-heading > p {
+			font-size: 19px;
+			line-height: 23px;
+			margin-bottom: 13px;
+			font-weight: bold; }
+
+	.epub-anyhead > .epub-heading {
+		font-size: 15px;
+		line-height: 19px;
+		margin-bottom: 13px;
+		font-weight: bold; }
+
+	.epub-ahead > .epub-anyhead > .epub-heading {
+		font-size: 17px; }
+
+	.epub-nepq > .epub-heading h3 > p {
+		font-size: 23px;
+		line-height: 29px;
+		margin-bottom: 15px;
+		font-weight: normal; }
+
+	.epub-footnoteSection {
+		margin: 15px 0 0 0;
+		text-align: left;
+		border-top: solid 5px #CCCCCC; }
+		.epub-footnoteSection .epub-heading {
+			margin: 10px 0;
+			font-size: 23px;
+			color: #333;
+			font-weight: normal; }
+
+	/* TOC elements */
+	.epub-toc-part {
+		font-size: 1.5em; }
+		.epub-toc-part td {
+			padding: 5px 0; }
+
+	.epub-toc-chapter {
+		font-size: 1.25em; }
+		.epub-toc-chapter td {
+			padding: 5px 0; }
+
+	.epub-toc-case td {
+		font-style: italic;
+		padding: 5px 0; }
+
+	.epub-toc-entry td {
+		padding: 2px 0; }
+
+	.epub-tocContainer {
+		margin-bottom: 10px; }
+		.epub-tocContainer .epub-tocSupplemental {
+			font-style: italic;
+			margin: 0 0 5px 0; }
+			.epub-tocContainer .epub-tocSupplemental a {
+				text-decoration: none;
+				color: #333; }
+			.epub-tocContainer .epub-tocSupplemental .epub-pageNumberRef {
+				float: right; }
+			.epub-tocContainer .epub-tocSupplemental h2 {
+				font-size: 23px;
+				line-height: 27px;
+				margin-bottom: 15px; }
+
+	.epub-tocChapter {
+		margin: 0 0 10px 0;
+		font-size: 1.25em;
+		font-weight: bold; }
+		.epub-tocChapter a {
+			text-decoration: none;
+			color: #333; }
+
+	.epub-index-main {
+		margin-bottom: 10px;
+		text-indent: -36px;
+		margin-left: 36px; }
+		.epub-index-main .epub-index-sub {
+			margin-top: 6px;
+			margin-left: 24px;
+			text-indent: -12px;
+			margin-left: 12px; }
+
+	.epub-feature {
+		/*This should stay here, after all the feature box declarations... margins need to override to have proper sidebar spacing*/
+		/*https://issues.wrycan.com/browse/GIRAFFE-611*/ }
+		.epub-feature.epub-featureBoxless {
+			margin: 10px 0px; }
+			.epub-feature.epub-featureBoxless > .epub-feature-heading2 > p {
+				font-size: 23px;
+				line-height: 29px;
+				margin-bottom: 15px;
+				font-weight: normal; }
+		.epub-feature.epub-feature1 {
+			padding: 15px 18px 15px 18px;
+			margin: 20px 0px 20px 0;
+			border-top: 10px solid #799d57;
+			border-bottom: 1px solid #ccc;
+			border-right: 1px solid #ccc;
+			border-left: 1px solid #ccc;
+			-webkit-border-radius: 10px;
+			-moz-border-radius: 10px;
+			border-radius: 10px;
+			background: #ededed;
+			background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #ededed 100%);
+			background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #ededed 100%);
+			background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #ededed 100%);
+			background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFFFFF), color-stop(1, #ededed));
+			background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #ededed 100%);
+			background-image: linear-gradient(to top, #FFFFFF 0%, #ededed 100%); }
+		.epub-feature.epub-feature3 {
+			margin: 20px 0px 20px 0;
+			padding: 15px 18px 15px 18px;
+			background-color: #e8e8e8;
+			border: 1px solid #ccc; }
+		.epub-feature.epub-feature2 {
+			margin: 20px 0px 20px 0;
+			padding: 15px 18px 15px 18px;
+			border: 2px solid #95b378; }
+		.epub-feature.epub-feature-sidebar {
+			min-height: 10px;
+			width: 230px;
+			margin-top: 0px; }
+			.epub-feature.epub-feature-sidebar.epub-sidebar-right {
+				margin-left: 15px;
+				float: right; }
+			.epub-feature.epub-feature-sidebar.epub-sidebar-left {
+				margin-right: 15px;
+				float: left; }
+		.epub-feature ul {
+			margin-left: 20px; }
+		.epub-feature ol {
+			margin-left: 20px; }
+		.epub-feature p {
+			/*https://issues.wrycan.com/browse/GIRAFFE-417*/
+			text-indent: 0px;
+			/*https://issues.wrycan.com/browse/GIRAFFE-595*/
+			text-align: left; }
+		.epub-feature .epub-blockquote {
+			margin-bottom: 20px; }
+		.epub-feature p:last-child {
+			margin-bottom: 5px; }
+		.epub-feature .epub-feature-heading {
+			font-size: 23px;
+			line-height: 29px;
+			/*text-align:left;  removed for https://issues.wrycan.com/browse/GIRAFFE-426*/
+			margin-bottom: 15px; }
+			.epub-feature .epub-feature-heading > p, .epub-feature .epub-feature-heading > div.clearfix p {
+				font-size: inherit;
+				line-height: inherit;
+				text-align: left;
+				margin-bottom: inherit; }
+		.epub-feature .epub-feature-heading2 {
+			font-size: 19px;
+			line-height: 23px;
+			/*text-align:left;  removed for https://issues.wrycan.com/browse/GIRAFFE-426*/
+			margin-bottom: 15px;
+			font-weight: bold; }
+			.epub-feature .epub-feature-heading2 > p, .epub-feature .epub-feature-heading2 > div.clearfix p {
+				font-weight: inherit;
+				font-size: inherit;
+				line-height: inherit;
+				text-align: left;
+				margin-bottom: inherit; }
+
+	/* replaced, never used
+	.epub-feature-sidebar {
+		padding:5px 10px;
+		width:300px;
+		float:left;
+		margin: 16px 15px 16px 0px;
+		@include featureBorder();
+		@include featureBackground();
+
+		.epub-heading {
+			text-align:center;
+			font-weight:bold;
+		}
+	}*/
+	.epub-feature-dm {
+		padding: 5px 10px;
+		margin: 16px 0px 16px 0;
+		border-top: 10px solid #799d57;
+		border-bottom: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+		border-left: 1px solid #ccc;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+		background: #ededed;
+		background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #ededed 100%);
+		background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #ededed 100%);
+		background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #ededed 100%);
+		background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFFFFF), color-stop(1, #ededed));
+		background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #ededed 100%);
+		background-image: linear-gradient(to top, #FFFFFF 0%, #ededed 100%); }
+		.epub-feature-dm .epub-heading {
+			font-weight: bold;
+			font-size: 1.25em;
+			font-style: italic; }
+		.epub-feature-dm .epub-link {
+			margin: 4px 0 0 15px; }
+			.epub-feature-dm .epub-link a, .epub-feature-dm .epub-link a:visited {
+				color: blue; }
+
+	.epub-cn-localtoc .epub-cn-localtoc-pageheader {
+		text-transform: uppercase;
+		font-size: 11px;
+		text-align: right; }
+	.epub-cn-localtoc .epub-cn-entry .epub-cn-page {
+		float: right;
+		width: 60px;
+		text-align: right;
+		font-style: italic;
+		font-size: 13px;
+		line-height: 19px; }
+	.epub-cn-localtoc .epub-cn-entry .epub-cn-position {
+		float: left;
+		width: 30px;
+		font-weight: 700;
+		font-size: 13px;
+		line-height: 19px; }
+	.epub-cn-localtoc .epub-cn-entry .epub-cn-content {
+		margin: 0 70px 0 40px; }
+
+	.epub-cn-casenote .epub-cn-parties {
+		font-size: 24px;
+		line-height: 29px; }
+	.epub-cn-casenote .epub-cn-citation {
+		margin-top: 10px;
+		margin-bottom: 20px; }
+	.epub-cn-casenote .epub-cn-section {
+		margin-bottom: 15px; }
+		.epub-cn-casenote .epub-cn-section ol {
+			margin-bottom: 5px; }
+		.epub-cn-casenote .epub-cn-section .epub-text-para {
+			margin-bottom: 5px; }
+		.epub-cn-casenote .epub-cn-section.epub-sn-section-noc, .epub-cn-casenote .epub-cn-section.epub-sn-section-fs, .epub-cn-casenote .epub-cn-section.epub-sn-section-rol {
+			font-weight: 700; }
+		.epub-cn-casenote .epub-cn-section.epub-sn-section-rol {
+			padding: 8px 15px 8px 8px;
+			background-color: #eee;
+			border-top: 1px solid #eee;
+			border-right: 1px solid #eee;
+			-webkit-border-top-right-radius: 25px;
+			-moz-border-top-right-radius: 25px;
+			border-top-right-radius: 25px; }
+		.epub-cn-casenote .epub-cn-section.epub-sn-section-analysis {
+			padding-right: 15px;
+			border-top: 1px solid #333;
+			border-right: 1px solid #333;
+			padding-top: 8px;
+			-webkit-border-top-right-radius: 25px;
+			-moz-border-top-right-radius: 25px;
+			border-top-right-radius: 25px; }
+		.epub-cn-casenote .epub-cn-section .epub-cn-sectiontitle {
+			font-size: 20px;
+			line-height: 25px;
+			letter-spacing: -1px;
+			margin-bottom: 5px;
+			font-weight: bold;
+			text-transform: uppercase; }
+			.epub-cn-casenote .epub-cn-section .epub-cn-sectiontitle.epub-cn-sectiontitle-qn {
+				text-transform: capitalize; }
+		.epub-cn-casenote .epub-cn-section .epub-cn-term {
+			text-transform: uppercase;
+			letter-spacing: -1px;
+			font-weight: bold; }
+
+	.epub-law-case {
+		border-bottom: 5px solid #95b378; }
+		.epub-law-case .epub-law-heading-container {
+			position: relative;
+			/*https://issues.wrycan.com/browse/GIRAFFE-417*/ }
+			.epub-law-case .epub-law-heading-container p {
+				text-indent: 0px; }
+			.epub-law-case .epub-law-heading-container .epub-law-case-marker {
+				position: absolute;
+				left: -32px;
+				float: left;
+				height: 95%;
+				width: 23px;
+				background-color: #95b378;
+				color: #95b378; }
+			.epub-law-case .epub-law-heading-container .epub-law-heading h3 > p {
+				font-size: 17px;
+				line-height: 19px;
+				text-align: left;
+				margin-bottom: 0px;
+				font-weight: bold;
+				color: #333; }
+			.epub-law-case .epub-law-heading-container .epub-law-casecitation {
+				font-size: 13px;
+				line-height: 19px;
+				margin-top: 0px; }
+
+	.epub-law-pexcerpt .epub-law-heading-container {
+		position: relative;
+		margin-bottom: 25px; }
+		.epub-law-pexcerpt .epub-law-heading-container .epub-law-pexcerpt-marker {
+			position: absolute;
+			left: -32px;
+			float: left;
+			height: 95%;
+			width: 23px;
+			background-color: #95b378;
+			color: #95b378; }
+		.epub-law-pexcerpt .epub-law-heading-container .epub-heading h3 > p {
+			font-size: 17px;
+			line-height: 19px;
+			/*text-align:left; https://issues.wrycan.com/browse/GIRAFFE-426*/
+			margin-bottom: 0px;
+			font-weight: bold;
+			color: #333; }
+		.epub-law-pexcerpt .epub-law-heading-container .epub-casecitation {
+			font-size: 13px;
+			line-height: 19px;
+			margin-top: 0px; }
+
+	.epub-pageBreak {
+		text-align: right;
+		font-size: 10px;
+		color: #666;
+		width: 40px;
+		border-top: 1px #ccc solid;
+		font-weight: normal;
+		font-style: normal;
+		position: absolute;
+		right: 0%;
+		line-height: 14px;
+		text-indent: 0px; }
+
+	ol > li .epub-pageBreak {
+		text-align: right;
+		font-size: 10px;
+		color: #666;
+		width: 40px;
+		border-top: 1px #ccc solid;
+		font-weight: normal;
+		font-style: normal;
+		position: absolute;
+		right: -50px; }
+
+	.epub-feature ol > li .epub-pageBreak {
+		text-align: right;
+		font-size: 10px;
+		color: #666;
+		width: 40px;
+		border-top: 1px #ccc solid;
+		font-weight: normal;
+		font-style: normal;
+		position: absolute;
+		right: -68px; }
+
+	.epub-blockquote ol > li .epub-pageBreak {
+		text-align: right;
+		font-size: 10px;
+		color: #666;
+		width: 40px;
+		border-top: 1px #ccc solid;
+		font-weight: normal;
+		font-style: normal;
+		position: absolute;
+		right: -85px; }
+
+	/* local chapter/chunk TOC */
+	.epub-localToc {
+		margin: 0px 0 10px 25px; }
+		.epub-localToc .epub-localtoc-entry {
+			text-align: left;
+			padding: 2px 0; }
+			.epub-localToc .epub-localtoc-entry.epub-localtoc-case {
+				margin-left: 25px; }
+				.epub-localToc .epub-localtoc-entry.epub-localtoc-case .epub-casename {
+					font-style: italic; }
+			.epub-localToc .epub-localtoc-entry a {
+				color: #333;
+				text-decoration: none; }
+
+	.epub-tableofcontents-container {
+		/* FM/BM stuff */
+		/* part stuff */
+		/* chapter stuff */
+		/* ahead stuff */
+		/* bhead stuff */
+		/* chead stuff */
+		/* dhead stuff */
+		/* ehead stuff */
+		/* case stuff */
+		/* misc stuff */ }
+		.epub-tableofcontents-container a, .epub-tableofcontents-container a:hover, .epub-tableofcontents-container a:visited {
+			text-decoration: none;
+			color: #333; }
+		.epub-tableofcontents-container .epub-tocentry-fmbm {
+			margin: 0 0 5px 20px;
+			font-style: italic;
+			font-size: 12px;
+			line-height: 18px; }
+			.epub-tableofcontents-container .epub-tocentry-fmbm .epub-tocentry-page {
+				width: 40px;
+				float: right;
+				text-align: right; }
+		.epub-tableofcontents-container .epub-tocentry-part1 {
+			margin: 20px 0 30px 0;
+			border-top: 1px solid #ccc;
+			border-bottom: 1px solid #ccc; }
+			.epub-tableofcontents-container .epub-tocentry-part1 .epub-tocentry-part2 {
+				border-top: 1px solid #fff;
+				border-bottom: 1px solid #fff;
+				font-size: 16px;
+				line-height: 18px;
+				text-transform: uppercase;
+				color: #fff;
+				background-color: #799d57;
+				padding-left: 20px;
+				padding-right: 10px;
+				font-weight: bold;
+				padding-top: 7px;
+				text-align: left;
+				padding-bottom: 5px; }
+				.epub-tableofcontents-container .epub-tocentry-part1 .epub-tocentry-part2 .epub-toclabel {
+					font-weight: bold; }
+				.epub-tableofcontents-container .epub-tocentry-part1 .epub-tocentry-part2 a, .epub-tableofcontents-container .epub-tocentry-part1 .epub-tocentry-part2 a:hover, .epub-tableofcontents-container .epub-tocentry-part1 .epub-tocentry-part2 a:visited {
+					text-decoration: none;
+					color: #fff; }
+		.epub-tableofcontents-container .epub-tocentry-chapter-container {
+			margin-bottom: 40px; }
+			.epub-tableofcontents-container .epub-tocentry-chapter-container a, .epub-tableofcontents-container .epub-tocentry-chapter-container a:hover, .epub-tableofcontents-container .epub-tocentry-chapter-container a:visited {
+				text-decoration: none;
+				color: #333; }
+			.epub-tableofcontents-container .epub-tocentry-chapter-container .epub-tocentry-chapter {
+				font-size: 18px;
+				color: #333;
+				margin-bottom: 20px;
+				padding-left: 20px;
+				text-align: left; }
+				.epub-tableofcontents-container .epub-tocentry-chapter-container .epub-tocentry-chapter .epub-toclabel {
+					font-weight: bold; }
+				.epub-tableofcontents-container .epub-tocentry-chapter-container .epub-tocentry-chapter .epub-tocentry-page {
+					width: 50px;
+					float: right;
+					text-align: right; }
+		.epub-tableofcontents-container .epub-tocentry-ahead {
+			font-weight: bold;
+			font-size: 13px;
+			line-height: 22px;
+			color: #333;
+			margin-left: 50px; }
+			.epub-tableofcontents-container .epub-tocentry-ahead .epub-toclabel {
+				float: left;
+				width: 25px;
+				text-align: right; }
+			.epub-tableofcontents-container .epub-tocentry-ahead .epub-tocentry-title {
+				text-align: left;
+				margin-left: 30px; }
+			.epub-tableofcontents-container .epub-tocentry-ahead .epub-tocentry-page {
+				width: 50px;
+				float: right;
+				text-align: right; }
+		.epub-tableofcontents-container .epub-tocentry-bhead {
+			font-weight: normal;
+			font-size: 13px;
+			line-height: 22px;
+			color: #333;
+			margin-left: 80px; }
+			.epub-tableofcontents-container .epub-tocentry-bhead .epub-toclabel {
+				float: left;
+				width: 20px;
+				text-align: left; }
+			.epub-tableofcontents-container .epub-tocentry-bhead .epub-tocentry-title {
+				text-align: left;
+				margin-left: 30px; }
+			.epub-tableofcontents-container .epub-tocentry-bhead .epub-tocentry-page {
+				width: 50px;
+				float: right;
+				text-align: right; }
+		.epub-tableofcontents-container .epub-tocentry-chead {
+			font-weight: normal;
+			font-size: 13px;
+			line-height: 22px;
+			color: #333;
+			margin-left: 110px; }
+			.epub-tableofcontents-container .epub-tocentry-chead .epub-toclabel {
+				float: left;
+				width: 10px;
+				text-align: left; }
+			.epub-tableofcontents-container .epub-tocentry-chead .epub-tocentry-title {
+				text-align: left;
+				margin-left: 20px; }
+			.epub-tableofcontents-container .epub-tocentry-chead .epub-tocentry-page {
+				width: 50px;
+				float: right;
+				text-align: right; }
+		.epub-tableofcontents-container .epub-tocentry-dhead {
+			font-weight: normal;
+			font-size: 13px;
+			line-height: 22px;
+			color: #333;
+			margin-left: 130px; }
+			.epub-tableofcontents-container .epub-tocentry-dhead .epub-toclabel {
+				float: left;
+				width: 20px;
+				text-align: left; }
+			.epub-tableofcontents-container .epub-tocentry-dhead .epub-tocentry-title {
+				text-align: left;
+				margin-left: 30px; }
+			.epub-tableofcontents-container .epub-tocentry-dhead .epub-tocentry-page {
+				width: 50px;
+				float: right;
+				text-align: right; }
+		.epub-tableofcontents-container .epub-tocentry-ehead {
+			font-weight: normal;
+			font-size: 13px;
+			line-height: 22px;
+			color: #333;
+			margin-left: 150px; }
+			.epub-tableofcontents-container .epub-tocentry-ehead .epub-toclabel {
+				float: left;
+				width: 20px;
+				text-align: left; }
+			.epub-tableofcontents-container .epub-tocentry-ehead .epub-tocentry-title {
+				text-align: left;
+				margin-left: 30px; }
+			.epub-tableofcontents-container .epub-tocentry-ehead .epub-tocentry-page {
+				width: 50px;
+				float: right;
+				text-align: right; }
+		.epub-tableofcontents-container .epub-tocentry-case {
+			font-style: italic; }
+		.epub-tableofcontents-container .epub-toc-divider {
+			margin-bottom: 30px; }
+			.epub-tableofcontents-container .epub-toc-divider hr {
+				border: 0;
+				height: 1px;
+				background: #333; }
+
+	.epub-index-entry {
+		text-align: left; }
+		.epub-index-entry.epub-index-indent {
+			margin-left: 30px; }
+		.epub-index-entry p {
+			text-indent: -90px;
+			padding-left: 90px;
+			margin-bottom: 15px; }
+
+	.epub-index-group {
+		margin-bottom: 25px; }
+
+	.epub-index-group-header {
+		font-size: 15px;
+		line-height: 19px; }
+
+	.semantic-tag.label {
+		padding: 0px 5px 1px 5px;
+		margin: 0;
+		font-size: 0.85em; }
+
+	/* these needs to be after the imports for proper precedence */
+	.epub-chunkHeader {
+		/*used in frontmatter*/ }
+		.epub-chunkHeader h1 > p {
+			font-size: 32px;
+			line-height: 39px;
+			margin-bottom: 35px;
+			font-weight: normal;
+			text-align: left;
+			text-indent: 0px; }
+		.epub-chunkHeader > h2 {
+			font-size: 32px;
+			line-height: 39px;
+			margin-bottom: 35px;
+			font-weight: normal;
+			text-align: left; }
+		.epub-chunkHeader > h3 {
+			font-size: 14px;
+			line-height: 20px;
+			margin-bottom: 35px;
+			font-weight: normal;
+			text-align: left; }
+
+	.epub-chunkDesignation {
+		font-size: 12px;
+		color: #333;
+		font-weight: bold; }
+		.epub-chunkDesignation > p {
+			font-size: inherit;
+			color: inherit;
+			font-weight: inherit;
+			margin-bottom: inherit;
+			text-indent: 0px; }
+	/*# sourceMappingURL=epub.css.map */
