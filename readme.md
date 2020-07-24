@@ -1,11 +1,3 @@
-This is a  collection of patched together html e-books. It's meant to allow students to access their textbooks in a browser without needing to use the distracting interface that the big textbook publishers force on students. With this version, you can print as much as you want, edit the text directly to make corrections([^1]), access the book from unlimited devices, and keep it indefinitely without worrying that a company will cut off your access to the text.
-
-These html files are also hopefully easier to use than a scanned pdf of the book. An html file of the entire casebook is thousands of times smaller than an equivalent pdf file. On basically any computer from this millennium, having a dozen html format casebooks open at the same time wouldn't make your computer slow down or freeze.
-
-Clicking on footnotes and other navigation links within the document will jump you to the referenced section. There are also separate TOC and Index files in the chapters folder; clicking on a page number hyperlink from one of these files will first open the html of the whole book and then. after a short pause, jump to the page you selected.  
-
-No annotation tools—that's a feature you would have to get from the publishers' websites.
-
 ## Online versions
 [Contract Law and Its Application, 9th Ed, Danny Bussel](https://ancient-geek-git.github.io/casebooks/Contract-Law-and-Its-Application-9th-Ed/)
 
@@ -22,3 +14,13 @@ If you rename files, especially the file of the whole book, the links in the TOC
 The book's appearance will change if you move the html files into a different place on your computer than the folder containing the css file and images folder.
 
 [^1]:	You need to be comfortable editing html files to do this. If that's something you can do, you can easily supplement the casebook by inserting diagrams, pictures, notes, colored backgrounds to help you find a section, etc.
+
+## About
+
+This is a  collection of patched together html e-books. It's meant to allow students to access their textbooks in a browser without needing to use the distracting interface that the big textbook publishers force on students. With this version, you can print as much as you want, edit the text directly to make corrections([^1]), access the book from unlimited devices, and keep it indefinitely without worrying that a company will cut off your access to the text.
+
+These html files are also hopefully easier to use than a scanned pdf of the book. An html file of the entire casebook is thousands of times smaller than an equivalent pdf file. On basically any computer from this millennium, having a dozen html format casebooks open at the same time wouldn't make your computer slow down or freeze.
+
+Clicking on footnotes and other navigation links within the document will jump you to the referenced section. There are also separate TOC and Index files in the chapters folder; clicking on a page number hyperlink from one of these files will first open the html of the whole book and then. after a short pause, jump to the page you selected.  
+
+No annotation tools—that's a feature you would have to get from the publishers' websites.
