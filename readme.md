@@ -23,7 +23,7 @@ The book's appearance will change if you move the html files into a different pl
 
 ## About
 
-This is a  collection of patched together html e-books. It's meant to allow students to access their textbooks in a browser without needing to use the distracting interface that the big textbook publishers force on students. With this version, you can print as much as you want, edit the text directly to make corrections,\* access the book offline from unlimited devices, and keep it indefinitely without worrying that a company will cut off your access to the text.
+This is a  collection of patched together html e-books. It's meant to allow students to access their textbooks in a browser without needing to use the distracting interface that the big textbook publishers force on students. With this version, you can print as much as you want, edit the text to make corrections or add context the authors left out,\* access the book offline from unlimited devices, and keep it indefinitely without worrying that a company will cut off your access to the text.
 
 These html files are also hopefully easier to use than a scanned pdf of the book. An html file of the entire casebook is thousands of times smaller than an equivalent pdf file. These files will hopefully make a high quality digital casebook accessible to students without access to a fast internet connection or high-powered computer.
 
@@ -32,5 +32,5 @@ Clicking on footnotes and other navigation links within the document will jump y
 No annotation tools—that's a feature you would have to get from the publishers' websites.
 
 
-\* *I.e., by editing the html files directly. There's no special tools needed: instead of opening the file with your browser, just open it with a text editor, like TextEdit on Mac or Notepad on PC. Be warned the file may look overwhelming at first, and there are rules about how to format the text or objects you want to add.
-If you are familiar with html, you can easily supplement the casebook by inserting diagrams, pictures, notes, colored backgrounds to help you find a section, etc.*
+\* *I.e., by editing the html files directly. There's no special tools needed: instead of opening the file with your browser, just open it with a text editor, like TextEdit on Mac or Notepad on PC. Be warned the file may look overwhelming at first, and you'll want to google html rules about how to format the text or objects you want to add.
+If you are familiar with html, you can easily supplement the casebook by inserting diagrams, pictures, notes, colored tabs to help you find a section, etc.*
