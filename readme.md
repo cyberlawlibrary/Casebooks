@@ -3,7 +3,7 @@
 
 [Civil Procedure, 10th Ed, Joanna Schwartz & Stephen Yeazell](https://ancient-geek-git.github.io/casebooks/Civil-Procedure-10th-Ed)
 
-[Criminal Law and Its Processes, 10th Ed, Sanford Kadish et al. ] (https://ancient-geek-git.github.io/casebooks/Criminal-Law-and-Its-Processes-10th-Ed)
+[Criminal Law and Its Processes, 10th Ed, Sanford Kadish et al.](https://ancient-geek-git.github.io/casebooks/Criminal-Law-and-Its-Processes-10th-Ed)
 
 ## Offline versions
 
