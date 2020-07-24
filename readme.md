@@ -8,12 +8,10 @@
 To get a copy of the ebook, go to the green button in the top right & click on "download zip". Unzip the file. You should see an html file for the whole book, a folder called "chapters" that contains each section of the book as its own html file, and a few other files/folders that will help your browser style the book's appearance and insert images.
 Double-clicking on any html file will likely open it in your default browser; if that doesn't work, you can drag an html file into a browser window. Voila!
 
-## Caution
+### Caution
 
 If you rename files, especially the file of the whole book, the links in the TOC and Index files will break.
 The book's appearance will change if you move the html files into a different place on your computer than the folder containing the css file and images folder.
-
-[^1]:	You need to be comfortable editing html files to do this. If that's something you can do, you can easily supplement the casebook by inserting diagrams, pictures, notes, colored backgrounds to help you find a section, etc.
 
 ## About
 
@@ -24,3 +22,5 @@ These html files are also hopefully easier to use than a scanned pdf of the book
 Clicking on footnotes and other navigation links within the document will jump you to the referenced section. There are also separate TOC and Index files in the chapters folder; clicking on a page number hyperlink from one of these files will first open the html of the whole book and then. after a short pause, jump to the page you selected.  
 
 No annotation tools—that's a feature you would have to get from the publishers' websites.
+
+[^1]:	You need to be comfortable editing html files to do this. If that's something you can do, you can easily supplement the casebook by inserting diagrams, pictures, notes, colored backgrounds to help you find a section, etc.
