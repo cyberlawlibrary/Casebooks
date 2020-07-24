@@ -25,4 +25,5 @@ Clicking on footnotes and other navigation links within the document will jump y
 
 No annotation tools—that's a feature you would have to get from the publishers' websites.
 
-[^1]:	You need to be comfortable editing html files to do this. If that's something you can do, you can easily supplement the casebook by inserting diagrams, pictures, notes, colored backgrounds to help you find a section, etc.
+[^1]:
+*You need to be comfortable editing html files to do this. If that's something you can do, you can easily supplement the casebook by inserting diagrams, pictures, notes, colored backgrounds to help you find a section, etc.*
