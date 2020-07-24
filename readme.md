@@ -26,4 +26,4 @@ Double-clicking on any html file will likely open it in your default browser; if
 If you rename files, especially the file of the whole book, the links in the TOC and Index files will break.
 The book's appearance will change if you move the html files into a different place on your computer than the folder containing the css file and images folder.
 
-[1] *You need to be comfortable editing html files to do this. If that's something you can do, you can easily supplement the casebook by inserting diagrams, pictures, notes, colored backgrounds to help you find a section, etc.
+[^1]:	You need to be comfortable editing html files to do this. If that's something you can do, you can easily supplement the casebook by inserting diagrams, pictures, notes, colored backgrounds to help you find a section, etc.
