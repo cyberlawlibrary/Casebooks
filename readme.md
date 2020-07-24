@@ -7,6 +7,10 @@
 
 [Constitutional Law, 6th Ed, Erwin Chemerinsky](https://ancient-geek-git.github.io/casebooks/Constitutional-Law-6th-Ed)
 
+[Basic Legal Research, 7th Ed, Amy Sloan]()
+
+[Property Law: Rules, Policies, and Practices, 7th Ed, Joseph Singer et al.]()
+
 ## Offline versions
 
 To get a copy of the ebook, go to the green button in the top right & click on "download zip". Unzip the file. You should see an html file for the whole book, a folder called "chapters" that contains each section of the book as its own html file, and a few other files/folders that will help your browser style the book's appearance and insert images.
