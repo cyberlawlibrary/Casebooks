@@ -7,7 +7,7 @@
 
 [Constitutional Law, 6th Ed, Erwin Chemerinsky](https://cyberlawlibrary.github.io/Casebooks/Constitutional-Law-6th-Ed)
 
-[Basic Legal Research, 7th Ed, Amy Sloan]()
+[Basic Legal Research, 7th Ed, Amy Sloan](https://cyberlawlibrary.github.io/Casebooks/Basic-Legal-Research-7th-Ed)
 
 [Property Law: Rules, Policies, and Practices, 7th Ed, Joseph Singer et al.]()
 
