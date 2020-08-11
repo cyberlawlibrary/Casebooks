@@ -9,7 +9,7 @@
 
 [Basic Legal Research, 7th Ed, Amy Sloan](https://cyberlawlibrary.github.io/Casebooks/Basic-Legal-Research-7th-Ed)
 
-[Property Law: Rules, Policies, and Practices, 7th Ed, Joseph Singer et al.]()
+[Property Law: Rules, Policies, and Practices, 7th Ed, Joseph Singer et al.](https://cyberlawlibrary.github.io/Casebooks/Property-Law-7th-Ed)
 
 ## Offline versions
 
