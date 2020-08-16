@@ -13,8 +13,20 @@
 
 ## Offline versions
 
-To get a copy of the ebook, go to the green button in the top right & click on "download zip". Unzip the file. You should see an html file for the whole book, a folder called "chapters" that contains each section of the book as its own html file, and a few other files/folders that will help your browser style the book's appearance and insert images.
-Double-clicking on any html file will likely open it in your default browser; if that doesn't work, you can drag an html file into a browser window. Voila!
+It's a good idea to save a copy of the book, in case the online version is taken down or you want to read the book offline.
+
+#### Chrome
+
+Use command-S or right click and choose "Save As." This will download an html file of the book and a folder with all the book images and a css file that controls the book's appearance. It's important to keep the html file and that folder in the same place on your computer. For example, they should both be in downloads, documents, desktop, etc — they need to be in the same folder. Otherwise, the book will look weird and won't display images.
+
+Double-clicking on the html file will likely open it in your default browser; if that doesn't work, you can drag the html file into a browser window. Voila!
+
+#### Safari
+
+Use command-S or right click and choose "Save Page As." You can then choose from two options for Format: webarchive or page source. Choose webarchive. This will download one webarchive file. This one file contains both the text of the book and all images and formatting information.
+
+Double-clicking on the webarchive file will open it in safari; if that doesn't work, you can drag the file into a safari window. Voila!
+
 
 ### Caution
 
