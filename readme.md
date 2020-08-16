@@ -43,5 +43,5 @@ If/once you are familiar with html, you can easily supplement the casebook by in
 ### Help with this project
 
 If you appreciate this resource and want to help expand the collection, you can help in one of two ways.
-1. You can send us the html files from an ebook of one of your textbooks. Login to the publishers website, load up your ebook, and download the html files for each section of the book. Please use Chrome, and follow the instructions above for downloading webpages in Chrome. Send the html files and the folders you download to cyberlawlibrary@gmail.com.  
+1. You can send us the html files from an ebook of one of your textbooks. Login to the publisher's website, load up your ebook, and download the html files for each section of the book. Please use Chrome, and follow the instructions above for downloading webpages in Chrome. Send the html files and the folders you download to cyberlawlibrary@gmail.com.  
 2. If you want an easier option, just send us your login info at cyberlawlibrary@gmail.com and we will be happy to download the files ourselves. We will only need access to your account for an hour or so and will delete your login information after accessing the ebooks.
