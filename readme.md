@@ -40,7 +40,7 @@ Clicking on footnotes and other navigation links within the document will jump y
 \* *I.e., by editing the html files directly. There's no special tools needed: instead of opening the html file with your browser, just open it with a text editor, like TextEdit on Mac or Notepad on PC. Be warned the file may look overwhelming at first, and you'll want to google html formatting rules to be able to add the text or images you want.
 If/once you are familiar with html, you can easily supplement the casebook by inserting diagrams, pictures, notes, colored tabs, etc.*
 
-### Help with this projects
+### Help with this project
 
 If you appreciate this resource and want to help expand the collection, you can help in one of two ways.
 1. You can send us the html files from an ebook of one of your textbooks. Login to the publishers website, load up your ebook, and download the html files for each section of the book. Please use Chrome, and follow the instructions above for downloading webpages in Chrome. Send the html files and the folders you download to cyberlawlibrary@gmail.com.  
