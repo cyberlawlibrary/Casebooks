@@ -17,9 +17,9 @@ It's a good idea to save a copy of the book, in case the online version is taken
 
 #### Chrome
 
-Use command-S or right click and choose "Save As." This will download an html file of the book and a folder with all the book images and a css file that controls the book's appearance. It's important to keep the html file and that folder in the same place on your computer. For example, they should both be in downloads, documents, desktop, etc — they need to be in the same folder. Otherwise, the book will look weird and won't display images.
+Use command-S or right click and choose "Save As." You can then choose from three options for Format: "html," "single file," or "complete." Choosing "single file" is easiest: it will download one file that contains both the text of the book and all images and formatting information. To view the book, you can right click the file, select "Open with," and choose Chrome. Voila!
 
-Double-clicking on the html file will likely open it in your default browser; if that doesn't work, you can drag the html file into a browser window. Voila!
+Choosing "complete" will download an html file of the book and a folder with all the book images and a css file that controls the book's appearance. It's important to keep the html file and that folder in the same place on your computer. For example, they should both be in downloads, documents, desktop, etc — they need to be in the same folder. Otherwise, the book will look weird and won't display images. Double-clicking on the html file will likely open it in your default browser; if that doesn't work, you can drag the html file into a browser window. Voila!
 
 #### Safari
 
