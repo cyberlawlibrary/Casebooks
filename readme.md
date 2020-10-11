@@ -1,4 +1,6 @@
 ## Online versions
+[Basic Legal Research, 7th Ed, Amy Sloan](https://cyberlawlibrary.github.io/Casebooks/Basic-Legal-Research-7th-Ed)
+
 [Contract Law and Its Application, 9th Ed, Danny Bussel](https://cyberlawlibrary.github.io/Casebooks/Contract-Law-and-Its-Application-9th-Ed)
 
 [Civil Procedure, 10th Ed, Joanna Schwartz & Stephen Yeazell](https://cyberlawlibrary.github.io/Casebooks/Civil-Procedure-10th-Ed)
@@ -7,9 +9,9 @@
 
 [Constitutional Law, 6th Ed, Erwin Chemerinsky](https://cyberlawlibrary.github.io/Casebooks/Constitutional-Law-6th-Ed)
 
-[Basic Legal Research, 7th Ed, Amy Sloan](https://cyberlawlibrary.github.io/Casebooks/Basic-Legal-Research-7th-Ed)
-
 [Property Law: Rules, Policies, and Practices, 7th Ed, Joseph Singer et al.](https://cyberlawlibrary.github.io/Casebooks/Property-Law-7th-Ed)
+
+[Local Government Law, 6th Ed, Gerald Frug et al.](https://cyberlawlibrary.github.io/Casebooks/Local-Government-Law-6th-Ed)
 
 ## Offline versions
 
