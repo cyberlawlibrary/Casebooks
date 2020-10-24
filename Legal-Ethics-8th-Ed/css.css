@@ -1,0 +1,3879 @@
+html {
+	font-family: "Times New Roman", sans-serif;
+}
+
+p {
+	margin-left: 3% !important;
+	margin-right: 5% !important;
+	line-height:1.3em !important;
+}
+
+a { color:black } /* Globally */
+
+/* Each state */
+
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color:blue; }
+a:hover, a:active { text-decoration: none; color:black }
+
+table {
+	border-collapse: collapse;
+    width: auto !important;
+}
+
+td {
+	vertical-align:  top;
+	height: 1em;
+    padding-right: 8pt;
+}
+
+td p {
+    margin-bottom: 0;
+}
+
+li {
+    margin:  0px;
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+ol, ul
+{
+    padding:  0px;
+    margin:  0px;
+}
+
+.pagebreak
+{
+	text-align: right;
+	font-size: 10px;
+/*  color: #666;  */
+	width: 30px;
+	border-bottom: 1px #ccc solid;
+	font-weight: normal;
+	font-style: normal;
+	position: absolute;
+	right: 4pt;
+	line-height: 14px;
+	text-indent: 0px;
+}
+
+html {
+	font-size: 11pt;
+
+}
+
+p {
+	line-height: 1.08em;
+	 margin-bottom: 8pt;
+
+}
+
+.AdvisoryBoardMainHead {
+	line-height: 20pt;
+	 margin-bottom: 6pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-variant: small-caps;
+	 font-size: 18pt;
+
+}
+
+.AnalysisHead {
+	line-height: 11pt;
+	 margin-bottom: 6pt;
+	 margin-top: 12pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-size: 9pt;
+
+}
+
+.AnalysisLine {
+	line-height: 11pt;
+	 margin-bottom: 2pt;
+	 text-indent: -21.6pt;
+	 margin-left: 21.6pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 9pt;
+
+}
+
+.AnalysisSecHead {
+	line-height: 11pt;
+	 margin-bottom: 4pt;
+	 margin-top: 8pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-size: 9pt;
+
+}
+
+.apple-converted-space {
+
+}
+
+.apple-style-span {
+
+}
+
+.AuthorAffiliation {
+	line-height: 12pt;
+	 margin-bottom: 12pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+
+}
+
+.AuthorName {
+	line-height: 16pt;
+	 margin-bottom: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-variant: small-caps;
+	 font-size: 14pt;
+
+}
+
+.BoardMemberAffiliation {
+	line-height: 9pt;
+	 margin-bottom: 0pt;
+	 margin-top: 2pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+
+}
+
+.BoardMemberName {
+	line-height: 13pt;
+	 margin-bottom: 0pt;
+	 margin-top: 10pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-variant: small-caps;
+	 font-size: 12pt;
+
+}
+
+.BoardMemberTitle {
+	line-height: 10pt;
+	 margin-bottom: 0pt;
+	 margin-top: 2pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-variant: small-caps;
+	 font-size: 9pt;
+
+}
+
+.Bodytext0 {
+	font-family: "Book Antiqua";
+	 font-size: 8.5pt;
+	 background-color: #FFFFFF;
+
+}
+
+.Bodytext2 {
+	font-family: "Book Antiqua";
+	 letter-spacing: -0.2pt;
+	 font-size: 8.5pt;
+	 text-decoration: underline;
+
+}
+
+.Bodytext75pt {
+	font-family: "Book Antiqua";
+	 font-variant: small-caps;
+	 letter-spacing: 0pt;
+	 font-size: 7pt;
+	 background-color: #FFFFFF;
+
+}
+
+.BodytextItalic {
+	font-family: "Book Antiqua";
+	 font-style: italic;
+	 letter-spacing: -0.2pt;
+	 font-size: 8.5pt;
+	 background-color: #FFFFFF;
+
+}
+
+.BookTitle1 {
+	font-weight: bolder;
+	 font-variant: small-caps;
+	 color: #000000;
+	 letter-spacing: 0.25pt;
+
+}
+
+.By {
+	line-height: 12pt;
+	 margin-bottom: 10pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-style: italic;
+	 font-size: 12pt;
+
+}
+
+.CaseHead {
+	line-height: 14pt;
+	 margin-bottom: 2pt;
+	 margin-top: 16pt;
+	 margin-left: 14.4pt;
+	 margin-right: 14.4pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-size: 12pt;
+
+}
+
+.Center3Stars {
+	line-height: 1.15em;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+
+}
+
+.Center5emDash {
+	line-height: 1.15em;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 text-transform: uppercase !important;
+	 font-size: 12pt;
+
+}
+
+.Center3emDash {
+	line-height: 1.15em;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 text-transform: uppercase !important;
+	 font-size: 12pt;
+
+}
+
+.Center7emDash {
+	line-height: 1.15em;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 text-transform: uppercase !important;
+	 font-size: 12pt;
+
+}
+
+.ChNum {
+	line-height: 18pt;
+	 margin-bottom: 12pt;
+	 margin-top: 6pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+	 color: #000000;
+	 font-size: 14pt;
+
+}
+
+.AppNum {
+	line-height: 18pt;
+	 margin-bottom: 12pt;
+	 margin-top: 6pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+	 color: #000000;
+	 font-size: 14pt;
+
+}
+
+.ChTitle {
+	line-height: 26pt;
+	 margin-bottom: 12pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-variant: small-caps;
+	 color: #000000;
+	 font-size: 24pt;
+
+}
+
+.AppTitle {
+	line-height: 26pt;
+	 margin-bottom: 12pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-variant: small-caps;
+	 color: #000000;
+	 font-size: 24pt;
+
+}
+
+.PtTitle {
+	line-height: 32pt;
+	 margin-bottom: 10pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-variant: small-caps;
+	 color: #000000;
+	 font-size: 30pt;
+	 margin-top: 6pt;
+
+}
+
+.ColorfulShading-Accent11 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: TimesNewRoman,"Times New Roman",Times,Baskerville,Georgia,serif;
+	 font-size: 10pt;
+
+}
+
+.CommentReference {
+	font-size: 8pt;
+
+}
+
+.CopyrightLineIndent {
+	line-height: 9pt;
+	 margin-bottom: 0pt;
+	 margin-left: 25.2pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 7pt;
+
+}
+
+.CopyrightLines {
+	line-height: 9pt;
+	 margin-bottom: 0pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 7pt;
+
+}
+
+.PrefaceDate {
+	line-height: 9pt;
+	 margin-bottom: 0pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 7pt;
+
+}
+
+.D5 {
+	line-height: 1.15em;
+	 margin-bottom: 12pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 text-transform: uppercase !important;
+	 font-size: 12pt;
+
+}
+
+.DedicationText {
+	line-height: 13pt;
+	 margin-bottom: 4pt;
+	 margin-top: 4pt;
+	 text-indent: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-style: italic;
+	 font-size: 12pt;
+
+}
+
+.DefaultParagraphFont {
+
+}
+
+.AndysPageNumberstyleChar {
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 12pt;
+
+}
+
+.BalloonTextChar {
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	 font-size: 8pt;
+
+}
+
+.BalloonTextChar1 {
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	 font-size: 8pt;
+
+}
+
+.BalloonTextChar2 {
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	 font-size: 8pt;
+
+}
+
+.BalloonTextChar3 {
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	 font-size: 8pt;
+
+}
+
+.BalloonTextChar4 {
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	 font-size: 8pt;
+
+}
+
+.BalloonTextChar5 {
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	 font-size: 8pt;
+
+}
+
+.BodyTextChar {
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 9pt;
+
+}
+
+.bodySTYLEChar {
+	font-family: "NewCenturySchlbk";
+	 font-size: 9pt;
+
+}
+
+.BookTitle {
+	font-weight: bolder;
+	 font-variant: small-caps;
+	 color: #000000;
+	 letter-spacing: 0.25pt;
+
+}
+
+.coconcept3443 {
+
+}
+
+.coconcept4756 {
+
+}
+
+.CommentTextChar {
+	font-family: TimesNewRoman,"Times New Roman",Times,Baskerville,Georgia,serif;
+	 font-size: 10pt;
+
+}
+
+.CommentSubjectChar {
+	font-family: TimesNewRoman,"Times New Roman",Times,Baskerville,Georgia,serif;
+	 font-size: 10pt;
+	 font-weight: bolder;
+
+}
+
+.cosearchterm {
+
+}
+
+.cosearchwithinterm {
+
+}
+
+.costarpage {
+
+}
+
+.DocumentMapChar {
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	 font-size: 8pt;
+
+}
+
+.Emphasis {
+	font-style: italic;
+	 color: #000000;
+
+}
+
+.EndnoteTextChar {
+	font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif;
+	 font-size: 10pt;
+
+}
+
+.ExcerptFileline2Char {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+
+}
+
+.FooterChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 9pt;
+
+}
+
+.FootnoteReference {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 vertical-align: super!important;
+	 font-size: smaller !important;
+	 line-height: 90% !important;
+
+}
+
+.FootnoteTextChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+
+}
+
+.FootnoteTextChar1 {
+	font-size: 10pt;
+
+}
+
+.fullcontentdisplay {
+
+}
+
+.HeaderChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 9pt;
+
+}
+
+.Heading1Char {
+	font-family: Cambria,Georgia,serif;
+	 font-weight: bolder;
+	 color: #365F91;
+	 font-size: 14pt;
+
+}
+
+.ChNumChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 color: #000000;
+	 font-size: 14pt;
+	 text-transform: uppercase !important;
+
+}
+
+.AppNumChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 color: #000000;
+	 font-size: 14pt;
+	 text-transform: uppercase !important;
+
+}
+
+.ChTitleChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 color: #000000;
+	 font-size: 24pt;
+	 text-transform: none;
+	 font-variant: small-caps;
+
+}
+
+.AppTitleChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 color: #000000;
+	 font-size: 24pt;
+	 text-transform: none;
+	 font-variant: small-caps;
+
+}
+
+.FirstMainHeadChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 color: #000000;
+	 font-size: 13pt;
+	 text-transform: uppercase !important;
+	 font-variant: normal;
+
+}
+
+.PtTitleChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 color: #000000;
+	 font-size: 30pt;
+	 text-transform: none;
+	 font-variant: small-caps;
+
+}
+
+.Heading2Char {
+	font-weight: bolder;
+	 color: #4472C4;
+	 font-size: 13pt;
+
+}
+
+.Heading3Char {
+	font-weight: bolder;
+	 color: #4472C4;
+	 font-size: 9pt;
+
+}
+
+.Heading4Char {
+	font-weight: bolder;
+	 font-style: italic;
+	 color: #4472C4;
+	 font-size: 9pt;
+
+}
+
+.Heading5Char {
+	color: #1F3763;
+	 font-size: 9pt;
+
+}
+
+.Heading6Char {
+	font-style: italic;
+	 color: #1F3763;
+	 font-size: 9pt;
+
+}
+
+.Heading7Char {
+	font-style: italic;
+	 color: #404040;
+	 font-size: 9pt;
+
+}
+
+.Heading8Char {
+	color: #404040;
+	 font-size: 10pt;
+
+}
+
+.Heading9Char {
+	font-style: italic;
+	 color: #404040;
+	 font-size: 10pt;
+
+}
+
+.highlight {
+
+}
+
+.MatNumberChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+
+}
+
+.MediumGrid11 {
+
+}
+
+.NoterefInNote {
+	font-family: "NewCenturySchlbk LT Std";
+	 font-size: 8.5pt;
+	 vertical-align: baseline;
+
+}
+
+.NoteTextFlushChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+
+}
+
+.SquibCaseChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+
+}
+
+.PlaceholderText {
+
+}
+
+.PlainTextChar {
+	font-family: "Consolas";
+	 font-size: 10.5pt;
+
+}
+
+.Strong {
+	font-weight: bolder;
+
+}
+
+.SubtitleChar {
+	font-style: italic;
+	 color: #4472C4;
+	 letter-spacing: 0.75pt;
+	 font-size: 12pt;
+
+}
+
+.Sub-titleChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 text-transform: uppercase !important;
+	 font-size: 18pt;
+
+}
+
+.TextParagraphChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+
+}
+
+.ImageSpaceChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+
+}
+
+.TitleChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-variant: small-caps;
+	 letter-spacing: 0.25pt;
+	 font-size: 30pt;
+
+}
+
+.UnresolvedMention {
+	color: #605E5C;
+	 background-color: #E1DFDD;
+
+}
+
+.UnresolvedMention1 {
+	color: #605E5C;
+	 background-color: #E1DFDD;
+
+}
+
+.UnresolvedMention2 {
+	color: #605E5C;
+	 background-color: #E1DFDD;
+
+}
+
+.UnresolvedMention3 {
+	color: #605E5C;
+	 background-color: #E1DFDD;
+
+}
+
+.UnresolvedMention4 {
+	color: #605E5C;
+	 background-color: #E1DFDD;
+
+}
+
+.UnresolvedMention40 {
+	color: #605E5C;
+	 background-color: #E1DFDD;
+
+}
+
+.WCPIChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-variant: small-caps;
+	 font-size: 9pt;
+
+}
+
+.WEGTChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+
+}
+
+.AMERICANCASEBOOKSERIESChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 12pt;
+	 font-weight: bolder;
+
+}
+
+.AMERICANCASEBOOKSERIESChar0 {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 12pt;
+	 font-weight: bolder;
+
+}
+
+.AuthorNameChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 14pt;
+	 font-variant: small-caps;
+
+}
+
+.ByChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 12pt;
+	 font-style: italic;
+
+}
+
+.CopyrightLinesChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 7pt;
+
+}
+
+.EditionNumberChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 14pt;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+
+}
+
+.FrontMatterTextChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+
+}
+
+.SERIESNAMEChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 12pt;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+	 letter-spacing: 2.5pt;
+
+}
+
+.UNIVERSITYCASEBOOKSERIESChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 12pt;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+
+}
+
+.WRHChar {
+	font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-size: 10pt;
+
+}
+
+.DisplayNumber {
+	color: #000000;
+
+}
+
+.DIVB {
+	line-height: 1.15em;
+	 margin-bottom: 36pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-size: 18pt;
+
+}
+
+.DoubleHairline {
+	line-height: 6pt;
+	 margin-bottom: 2pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-variant: small-caps;
+	 font-size: 8pt;
+
+}
+
+.EditionNumber {
+	line-height: 16pt;
+	 margin-bottom: 12pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+	 font-size: 14pt;
+
+}
+
+.EditorialBoardMainHead {
+	line-height: 16pt;
+	 margin-bottom: 12pt;
+	 margin-top: 12pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+	 letter-spacing: 2pt;
+	 font-size: 12pt;
+
+}
+
+.EndnoteReference {
+	vertical-align: super;
+	 font-size: smaller;
+	 line-height: 100%;
+
+}
+
+.ExcerptFileline2 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+
+}
+
+.ExcerptHead {
+	line-height: 14pt;
+	 margin-bottom: 2pt;
+	 margin-top: 16pt;
+	 margin-left: 14.4pt;
+	 margin-right: 14.4pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-size: 12pt;
+
+}
+
+.FileLine {
+	line-height: 10pt;
+	 margin-bottom: 9pt;
+	 margin-left: 14.4pt;
+	 margin-right: 14.4pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+
+}
+
+.SquibFileLine {
+	line-height: 10pt;
+	 margin-bottom: 4pt;
+	 margin-left: 0pt;
+	 margin-right: 0pt;
+	 text-align: left;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+
+}
+
+.FirstMainHead {
+	line-height: 1em;
+	 margin-bottom: 4pt;
+	 margin-top: 4pt;
+	 margin-left: 54pt;
+	 margin-right: 54pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+	 color: #000000;
+	 font-size: 13pt;
+
+}
+
+.FN3StarsCentered {
+	line-height: 9pt;
+	 margin-bottom: 6pt;
+	 margin-top: 6pt;
+	 text-indent: 14.4pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+
+}
+
+.FN3StarsParagraph {
+	line-height: 9pt;
+	 margin-bottom: 6pt;
+	 margin-top: 6pt;
+	 text-indent: 16.55pt;
+	 text-align: left;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+
+}
+
+.FNFloatingFlush {
+	line-height: 9pt;
+	 margin-bottom: 10pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+
+}
+
+.FNPara {
+	line-height: 9pt;
+	 margin-bottom: 2pt;
+	 text-indent: 16.55pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+
+}
+
+.Footnote5 {
+	font-family: "Book Antiqua";
+	 font-size: 8.5pt;
+	 background-color: #FFFFFF;
+
+}
+
+.FootnoteRefInDoc {
+	font-family: "Adobe Caslon Pro";
+	 font-size: smaller;
+	 vertical-align: super;
+	 line-height: 100%;
+
+}
+
+.FootnoteSectionReference {
+	line-height: 0.67em;
+	 margin-bottom: 10pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+
+}
+
+.FootnoteText {
+	line-height: 9pt;
+	 margin-bottom: 10pt;
+	 text-indent: 16.55pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+
+}
+
+.FNTextFlush {
+	line-height: 9pt;
+	 margin-bottom: 2pt;
+	 text-indent: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+
+}
+
+.FNList {
+	line-height: 9pt;
+	 margin-bottom: 2pt;
+	 text-indent: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+
+}
+
+.FormHeadFlush {
+	line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+
+}
+
+.FormHeadParagraph {
+	line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+	 text-indent: 21.6pt;
+
+}
+
+.FormTextParagraph {
+	line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+
+}
+
+.FormHeadCentered {
+	line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 0pt;
+	 text-align: center;
+	 text-justify: inter-word;
+	 font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+	 margin-left: 21.6pt;
+	 margin-right: 21.6pt;
+
+}
+
+.FormTextFlush {
+	line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 0pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+
+}
+
+.FoundationPressBookTitle {
+	line-height: 36pt;
+	 margin-bottom: 12pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-variant: small-caps;
+	 font-size: 34pt;
+
+}
+
+.FrontMatterCaseText {
+	line-height: 9pt;
+	 margin-bottom: 0pt;
+	 text-indent: -21.6pt;
+	 margin-left: 21.6pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+
+}
+
+.TableofAuthorities {
+	line-height: 9.5pt;
+	 margin-bottom: 0pt;
+	 text-indent: -9.35pt;
+	 margin-left: 9.35pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 9pt;
+
+}
+
+.TOAHeading {
+	line-height: 9pt;
+	 margin-bottom: 0pt;
+	 text-indent: -21.6pt;
+	 margin-left: 21.6pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 9pt;
+	 margin-top: 6pt;
+	 font-weight: bolder;
+
+}
+
+.FrontMatterText {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+
+}
+
+.Head1 {
+	line-height: 15pt;
+	 margin-bottom: 6pt;
+	 margin-top: 12pt;
+	 text-indent: -21.6pt;
+	 margin-left: 21.6pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-variant: small-caps;
+	 color: #000000;
+	 font-size: 13pt;
+
+}
+
+.Head1Alphabetic {
+	line-height: 15pt;
+	 margin-bottom: 6pt;
+	 margin-top: 12pt;
+	 text-indent: -21.6pt;
+	 margin-left: 21.6pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-variant: small-caps;
+	 color: #000000;
+	 font-size: 13pt;
+
+}
+
+.Head1Numeric {
+	line-height: 15pt;
+	 margin-bottom: 6pt;
+	 margin-top: 12pt;
+	 text-indent: -21.6pt;
+	 margin-left: 21.6pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-variant: small-caps;
+	 color: #000000;
+	 font-size: 13pt;
+
+}
+
+.Head1Roman {
+	line-height: 15pt;
+	 margin-bottom: 6pt;
+	 margin-top: 12pt;
+	 text-indent: -21.6pt;
+	 margin-left: 21.6pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-variant: small-caps;
+	 color: #000000;
+	 font-size: 13pt;
+
+}
+
+.Head2 {
+	line-height: 15pt;
+	 margin-bottom: 6pt;
+	 margin-top: 10pt;
+	 text-indent: -21.6pt;
+	 margin-left: 21.6pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: normal;
+	 font-variant: small-caps;
+	 color: #000000;
+	 font-size: 13pt;
+
+}
+
+.Head3 {
+	line-height: 13pt;
+	 margin-bottom: 6pt;
+	 margin-top: 10pt;
+	 text-indent: -21.6pt;
+	 margin-left: 21.6pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: normal;
+	 font-variant: small-caps;
+	 color: #000000;
+	 font-size: 11pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+
+}
+
+.Head4 {
+	line-height: 13pt;
+	 margin-bottom: 6pt;
+	 margin-top: 10pt;
+	 text-indent: -21.6pt;
+	 margin-left: 21.6pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: normal;
+	 font-variant: normal;
+	 color: #000000;
+	 font-size: 11pt;
+	 text-align: left;
+	 text-justify: inter-word;
+	 font-style: italic;
+
+}
+
+.Head5 {
+	line-height: 13pt;
+	 margin-bottom: 6pt;
+	 margin-top: 10pt;
+	 text-indent: -21.6pt;
+	 margin-left: 21.6pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: normal;
+	 font-variant: normal;
+	 color: #000000;
+	 font-size: 11pt;
+	 text-align: left;
+	 text-justify: inter-word;
+	 font-style: normal;
+
+}
+
+.Head6 {
+	line-height: 13pt;
+	 margin-bottom: 6pt;
+	 margin-top: 10pt;
+	 text-indent: -21.6pt;
+	 margin-left: 64.8pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: normal;
+	 font-variant: normal;
+	 color: #000000;
+	 font-size: 11pt;
+	 text-align: left;
+	 text-justify: inter-word;
+	 font-style: normal;
+
+}
+
+.Head7 {
+	line-height: 13pt;
+	 margin-bottom: 6pt;
+	 margin-top: 10pt;
+	 text-indent: -21.6pt;
+	 margin-left: 64.8pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: normal;
+	 font-variant: normal;
+	 color: #000000;
+	 font-size: 11pt;
+	 text-align: center;
+	 text-justify: inter-word;
+	 font-style: normal;
+
+}
+
+.Heading12 {
+	font-family: "Book Antiqua";
+	 letter-spacing: -0.1pt;
+	 font-size: 9.5pt;
+	 background-color: #FFFFFF;
+
+}
+
+.HeadMisc {
+	line-height: 15pt;
+	 margin-bottom: 6pt;
+	 margin-top: 12pt;
+	 text-indent: -21.6pt;
+	 margin-left: 21.6pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-size: 13pt;
+
+}
+
+.IgnoredStyle {
+	line-height: 12pt;
+	 margin-bottom: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 9pt;
+
+}
+
+.Image {
+	line-height: 1.15em;
+	 margin-bottom: 10pt;
+	 margin-top: 10pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-size: 12pt;
+
+}
+
+.IndexLetter {
+	line-height: 14pt;
+	 margin-bottom: 10pt;
+	 margin-top: 10pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-size: 12pt;
+
+}
+
+.InstructionLine {
+	line-height: 12pt;
+	 margin-bottom: 5pt;
+	 margin-top: 5pt;
+	 text-indent: -21.6pt;
+	 margin-left: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-size: 10pt;
+
+}
+
+.ListHead1 {
+
+}
+
+.MatNumber {
+	line-height: 9pt;
+	 margin-bottom: 10pt;
+	 margin-top: 6pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+
+}
+
+.MediumGrid21 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 9pt;
+
+}
+
+.N {
+
+}
+
+.NoList {
+
+}
+
+.OrderedList {
+
+}
+
+.Normal {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 9pt;
+
+}
+
+.AAH1 {
+	line-height: 1.08em;
+	 margin-bottom: 12pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 16pt;
+	 margin-top: 24pt;
+	 text-indent: -21.6pt;
+	 margin-left: 21.6pt;
+	 font-weight: bolder;
+
+}
+
+.AAH2 {
+	line-height: 1.08em;
+	 margin-bottom: 6pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 14pt;
+	 margin-top: 18pt;
+	 text-indent: -18pt;
+	 margin-left: 36pt;
+	 font-weight: bolder;
+
+}
+
+.AAPROBLEMHEAD {
+	line-height: 1em;
+	 margin-bottom: 6pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 12pt;
+	 margin-top: 18pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 vertical-align: middle;
+	 font-weight: bolder;
+
+}
+
+.BalloonText {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: Tahoma,Verdana,Segoe,sans-serif;
+	 font-size: 8pt;
+
+}
+
+.BlockText {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 9pt;
+	 padding-top: 10pt;
+	 border-top: solid 1pt #4472C4;
+	 padding-left: 10pt;
+	 border-left: solid 1pt #4472C4;
+	 padding-bottom: 10pt;
+	 border-bottom: solid 1pt #4472C4;
+	 padding-right: 10pt;
+	 border-right: solid 1pt #4472C4;
+	 margin-left: 57.6pt;
+	 margin-right: 57.6pt;
+	 font-style: italic;
+	 color: #4472C4;
+
+}
+
+.BodyText {
+	line-height: 1em;
+	 margin-bottom: 6pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 9pt;
+
+}
+
+.bodySTYLE {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: "NewCenturySchlbk";
+	 font-size: 9pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+
+}
+
+.BodyText1 {
+	line-height: 12pt;
+	 margin-bottom: 0pt;
+	 font-family: "Book Antiqua";
+	 font-size: 8.5pt;
+	 background-color: #FFFFFF;
+	 text-indent: -14pt;
+
+}
+
+.Caption {
+	line-height: 1em;
+	 margin-bottom: 10pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 9pt;
+	 text-align: center;
+	 font-weight: bolder;
+	 color: #000000;
+
+}
+
+.Center3Dots {
+	line-height: 1.15em;
+	 margin-bottom: 3.75pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+	 margin-top: 3.75pt;
+	 text-align: center;
+
+}
+
+.ColorfulList-Accent11 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 9pt;
+	 margin-left: 36pt;
+
+}
+
+.CommentText {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: TimesNewRoman,"Times New Roman",Times,Baskerville,Georgia,serif;
+	 font-size: 10pt;
+
+}
+
+.CommentSubject {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: TimesNewRoman,"Times New Roman",Times,Baskerville,Georgia,serif;
+	 font-size: 10pt;
+	 font-weight: bolder;
+
+}
+
+.Document {
+	line-height: 13pt;
+	 margin-bottom: 0pt;
+	 font-family: "TimesTen";
+	 font-size: 11pt;
+	 text-indent: 22pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+
+}
+
+.FootNote {
+	line-height: 10pt;
+	 margin-bottom: 0pt;
+	 font-family: "NewCenturySchlbk LT Std";
+	 font-size: 8.5pt;
+	 text-indent: 0pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+
+}
+
+.DocumentMap {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: Tahoma,Verdana,Segoe,sans-serif;
+	 font-size: 8pt;
+
+}
+
+.EndnoteText {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif;
+	 font-size: 10pt;
+
+}
+
+.FN {
+	line-height: 11pt;
+	 margin-bottom: 0pt;
+	 font-family: "GalliardStd-Roman";
+	 font-size: 9pt;
+	 text-indent: 22pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 vertical-align: middle;
+	 color: #000000;
+
+}
+
+.FNFloatingAsterisk {
+	line-height: 9pt;
+	 margin-bottom: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+	 text-indent: 16.55pt;
+
+}
+
+.FNFloatingNumbered {
+	line-height: 9pt;
+	 margin-bottom: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+	 text-indent: 16.55pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+
+}
+
+.WD {
+	line-height: 9pt;
+	 margin-bottom: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+	 text-indent: 16.55pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+
+}
+
+.Footer {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 9pt;
+
+}
+
+.AndysPageNumberstyle {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 12pt;
+	 text-indent: 36pt;
+	 text-align: center;
+
+}
+
+.Footnote50 {
+	line-height: 12.5pt;
+	 margin-bottom: 0pt;
+	 font-family: "Book Antiqua";
+	 font-size: 8.5pt;
+  ./*background-color: #FFFFFF; */
+	 text-align: justify;
+	 text-justify: inter-word;
+
+}
+
+.Header {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 9pt;
+
+}
+
+.Heading1 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: Cambria,Georgia,serif;
+	 font-size: 14pt;
+	 margin-top: 24pt;
+	 font-weight: bolder;
+	 color: #365F91;
+
+}
+
+.AndysStyles {
+	line-height: 1.07em;
+	 margin-bottom: 8pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 12pt;
+	 margin-top: 0pt;
+	 font-weight: normal;
+	 color: 000;
+
+}
+
+.TOCHeading {
+	line-height: 1em;
+	 margin-bottom: 18pt;
+	 font-family: Cambria,Georgia,serif;
+	 font-size: 14pt;
+	 margin-top: 6pt;
+	 font-weight: bolder;
+	 color: 000;
+	 text-align: center;
+
+}
+
+.TOCHeading1 {
+	line-height: 1em;
+	 margin-bottom: 18pt;
+	 font-family: Cambria,Georgia,serif;
+	 font-size: 14pt;
+	 margin-top: 6pt;
+	 font-weight: bolder;
+	 color: 000;
+	 text-align: center;
+
+}
+
+.Heading120 {
+	line-height: 12pt;
+	 margin-bottom: 12pt;
+	 font-family: "Book Antiqua";
+	 font-size: 9.5pt;
+	 background-color: #FFFFFF;
+	 margin-top: 12pt;
+	 letter-spacing: -0.1pt;
+
+}
+
+.Heading2 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 13pt;
+	 margin-top: 10pt;
+	 font-weight: bolder;
+	 color: #4472C4;
+
+}
+
+.Heading3 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 9pt;
+	 margin-top: 10pt;
+	 font-weight: bolder;
+	 color: #4472C4;
+
+}
+
+.Heading4 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 9pt;
+	 margin-top: 10pt;
+	 font-weight: bolder;
+	 font-style: italic;
+	 color: #4472C4;
+
+}
+
+.Heading5 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 9pt;
+	 margin-top: 10pt;
+	 color: #1F3763;
+
+}
+
+.Heading6 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 9pt;
+	 margin-top: 10pt;
+	 font-style: italic;
+	 color: #1F3763;
+
+}
+
+.Heading7 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 9pt;
+	 margin-top: 10pt;
+	 font-style: italic;
+	 color: #404040;
+
+}
+
+.Heading8 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 10pt;
+	 margin-top: 10pt;
+	 color: #404040;
+
+}
+
+.Heading9 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 10pt;
+	 margin-top: 10pt;
+	 font-style: italic;
+	 color: #404040;
+
+}
+
+.indent {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: TimesNewRoman,"Times New Roman",Times,Baskerville,Georgia,serif;
+	 font-size: 12pt;
+
+}
+
+.Index1 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+	 text-indent: -9pt;
+	 margin-left: 9pt;
+	 font-weight: bolder;
+
+}
+
+.Index2 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+	 text-indent: -9.35pt;
+	 margin-left: 9.35pt;
+
+}
+
+.Index3 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+	 text-indent: -9.35pt;
+	 margin-left: 18.7pt;
+
+}
+
+.Index4 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+	 text-indent: -9.35pt;
+	 margin-left: 27.35pt;
+
+}
+
+.Index5 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+	 text-indent: -9.35pt;
+	 margin-left: 45.35pt;
+
+}
+
+.IndexTopicHead {
+	line-height: 9pt;
+	 margin-bottom: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+	 margin-top: 6pt;
+	 text-indent: -21.6pt;
+	 margin-left: 21.6pt;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+
+}
+
+.IndexTopicSubhead {
+	line-height: 9pt;
+	 margin-bottom: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+	 margin-top: 0pt;
+	 text-indent: -21.6pt;
+	 margin-left: 21.6pt;
+	 font-weight: normal;
+	 text-transform: none;
+
+}
+
+.ListContinue3 {
+	line-height: 1em;
+	 margin-bottom: 6pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 9pt;
+	 margin-left: 54pt;
+
+}
+
+.ListNumber4 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 9pt;
+
+}
+
+.ListNumber5 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 9pt;
+
+}
+
+.ListParagraph {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 9pt;
+	 margin-left: 36pt;
+
+}
+
+.NormalWeb {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 9pt;
+
+}
+
+.Paragraph3Dots {
+	line-height: 1.15em;
+	 margin-bottom: 3.75pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+	 margin-top: 3.75pt;
+	 text-indent: 21.6pt;
+
+}
+
+.PlainText {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: "Consolas";
+	 font-size: 10.5pt;
+
+}
+
+.slate-paragraph {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: TimesNewRoman,"Times New Roman",Times,Baskerville,Georgia,serif;
+	 font-size: 12pt;
+
+}
+
+.statutory-body-1em {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: TimesNewRoman,"Times New Roman",Times,Baskerville,Georgia,serif;
+	 font-size: 12pt;
+
+}
+
+.story-body-text {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: TimesNewRoman,"Times New Roman",Times,Baskerville,Georgia,serif;
+	 font-size: 12pt;
+
+}
+
+.Subtitle {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 12pt;
+	 font-style: italic;
+	 color: #4472C4;
+	 letter-spacing: 0.75pt;
+
+}
+
+.Text {
+	line-height: 11pt;
+	 margin-bottom: 8pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 11pt;
+	 margin-top: 6pt;
+	 text-indent: 18pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 vertical-align: middle;
+
+}
+
+.AATEXT {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: TimesNewRoman,"Times New Roman",Times,Baskerville,Georgia,serif;
+	 font-size: 11pt;
+	 margin-top: 0pt;
+	 text-indent: 18pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 vertical-align: middle;
+
+}
+
+.TextInd {
+	line-height: 13pt;
+	 margin-bottom: 0pt;
+	 font-family: "GalliardStd-Roman";
+	 font-size: 11pt;
+	 text-indent: 22pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 vertical-align: middle;
+	 color: #000000;
+
+}
+
+.TOC1 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+	 margin-top: 6pt;
+	 text-indent: -21.6pt;
+	 margin-left: 21.6pt;
+	 font-variant: small-caps;
+
+}
+
+.TOC2 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+	 margin-top: 10pt;
+	 text-indent: -21.6pt;
+	 margin-left: 21.6pt;
+	 font-weight: bolder;
+
+}
+
+.TOC3 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+	 text-indent: -21.6pt;
+	 margin-left: 21.6pt;
+
+}
+
+.TOC4 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+	 text-indent: -21.6pt;
+	 margin-left: 43.2pt;
+
+}
+
+.TOC5 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+	 text-indent: -21.6pt;
+	 margin-left: 64.8pt;
+
+}
+
+.TOC6 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+	 text-indent: -21.6pt;
+	 margin-left: 64.8pt;
+
+}
+
+.TOC7 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+	 text-indent: -21.6pt;
+	 margin-left: 86.4pt;
+
+}
+
+.TOC8 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+	 text-indent: -21.6pt;
+	 margin-left: 86.4pt;
+
+}
+
+.TOC9 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+	 margin-top: 10pt;
+	 margin-left: 7.2pt;
+	 margin-right: 7.2pt;
+	 text-align: center;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+
+}
+
+.Normal0 {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: TimesNewRoman,"Times New Roman",Times,Baskerville,Georgia,serif;
+	 font-size: 12pt;
+
+}
+
+.NoSpacing {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 9pt;
+
+}
+
+.NoteFlushRightNameLine {
+	padding-top: 1pt;
+	 border-top: solid 1pt #000;
+	 line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 margin-left: 216pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+
+}
+
+.NoteHeadCenter {
+	line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 margin-left: 21.6pt;
+	 margin-right: 21.6pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+
+}
+
+.WNCB {
+	line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 margin-left: 21.6pt;
+	 margin-right: 21.6pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+	 font-weight: bolder;
+
+}
+
+.WNCI {
+	line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 margin-left: 21.6pt;
+	 margin-right: 21.6pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+	 font-weight: normal;
+	 font-style: italic;
+
+}
+
+.WNCBI {
+	line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 margin-left: 21.6pt;
+	 margin-right: 21.6pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+	 font-weight: bolder;
+	 font-style: italic;
+
+}
+
+.NoteHeadFlush {
+	line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: -21.6pt;
+	 margin-left: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+
+}
+
+.WNFB {
+	line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: -21.6pt;
+	 margin-left: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+	 font-weight: bolder;
+
+}
+
+.WNFB1 {
+	line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: -21.6pt;
+	 margin-left: 43.2pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+	 font-weight: bolder;
+
+}
+
+.WNFI {
+	line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: -21.6pt;
+	 margin-left: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+	 font-weight: normal;
+	 font-style: italic;
+
+}
+
+.NoteHeadParagraph {
+	line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+
+}
+
+.NoteList {
+	line-height: 11pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+
+}
+
+.NoteMainHead {
+	line-height: 13pt;
+	 margin-bottom: 6pt;
+	 margin-top: 12pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-variant: small-caps;
+
+}
+
+.NoterefInText {
+	font-family: "TimesTen";
+	 font-size: 6.5pt;
+	 vertical-align: baseline;
+
+}
+
+.NoteTextFlush {
+	line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+
+}
+
+.SquibCase {
+	line-height: 12pt;
+	 margin-bottom: 5pt;
+	 margin-top: 5pt;
+	 text-align: left;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+	 text-indent: -21.6pt;
+	 margin-left: 21.6pt;
+
+}
+
+.NoteTextHanging {
+	line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: -21.6pt;
+	 margin-left: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+
+}
+
+.NoteTextParagraph {
+	line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+
+}
+
+.Paragraph3Stars {
+	line-height: 1.15em;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 21.6pt;
+
+}
+
+.Picturecaption7pt {
+	font-family: "Book Antiqua";
+	 font-style: italic;
+	 letter-spacing: -0.3pt;
+	 font-size: 6.5pt;
+	 background-color: #FFFFFF;
+
+}
+
+.PrefaceHeading {
+	line-height: 18pt;
+	 margin-bottom: 10pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+	 font-size: 14pt;
+
+}
+
+.FrontMatterHeading {
+	line-height: 18pt;
+	 margin-bottom: 10pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+	 font-size: 14pt;
+
+}
+
+.AbouttheAuthorHeading {
+	line-height: 18pt;
+	 margin-bottom: 10pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+	 font-size: 14pt;
+
+}
+
+.AcknowledgmentsHeading {
+	line-height: 18pt;
+	 margin-bottom: 10pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+	 font-size: 14pt;
+
+}
+
+.ForewordHeading {
+	line-height: 18pt;
+	 margin-bottom: 10pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+	 font-size: 14pt;
+
+}
+
+.IntroductionHeading {
+	line-height: 18pt;
+	 margin-bottom: 10pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+	 font-size: 14pt;
+
+}
+
+.PrefacetoEditionHeading {
+	line-height: 18pt;
+	 margin-bottom: 10pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+	 font-size: 14pt;
+
+}
+
+.SummaryofContentsHeading {
+	line-height: 18pt;
+	 margin-bottom: 10pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+	 font-size: 14pt;
+
+}
+
+.TableofAuthoritiesHeading {
+	line-height: 18pt;
+	 margin-bottom: 10pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+	 font-size: 14pt;
+
+}
+
+.TableofCasesHeading {
+	line-height: 18pt;
+	 margin-bottom: 10pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+	 font-size: 14pt;
+
+}
+
+.TableofContentsHeading {
+	line-height: 18pt;
+	 margin-bottom: 10pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+	 font-size: 14pt;
+
+}
+
+.TableofRegulationsHeading {
+	line-height: 18pt;
+	 margin-bottom: 10pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+	 font-size: 14pt;
+
+}
+
+.TableofRulesHeading {
+	line-height: 18pt;
+	 margin-bottom: 10pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+	 font-size: 14pt;
+
+}
+
+.TableofStatutesHeading {
+	line-height: 18pt;
+	 margin-bottom: 10pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+	 font-size: 14pt;
+
+}
+
+.PtNum {
+	line-height: 20pt;
+	 margin-bottom: 18pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+	 color: #000000;
+	 font-size: 16pt;
+
+}
+
+.Revision {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	 font-size: 9pt;
+
+}
+
+.RuleFlushRightNameLine {
+	padding-top: 1pt;
+	 border-top: solid 1pt #000;
+	 line-height: 11pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 margin-left: 216pt;
+	 font-family: Gautami,"Arial Unicode MS",Arial,sans-serif;
+	 font-size: 10pt;
+
+}
+
+.RuleList {
+	line-height: 11pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 font-family: Gautami,"Arial Unicode MS",Arial,sans-serif;
+	 font-size: 10pt;
+
+}
+
+.WRL2 {
+	line-height: 11pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 font-family: Gautami,"Arial Unicode MS",Arial,sans-serif;
+	 font-size: 10pt;
+	 margin-left: 43.2pt;
+
+}
+
+.WRL3 {
+	line-height: 11pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 font-family: Gautami,"Arial Unicode MS",Arial,sans-serif;
+	 font-size: 10pt;
+	 margin-left: 64.8pt;
+
+}
+
+.RuleTextParagraph {
+	line-height: 11pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: Gautami,"Arial Unicode MS",Arial,sans-serif;
+	 font-size: 10pt;
+
+}
+
+.RuleHeadCentered {
+	line-height: 11pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 0pt;
+	 text-align: center;
+	 text-justify: inter-word;
+	 font-family: Gautami,"Arial Unicode MS",Arial,sans-serif;
+	 font-size: 10pt;
+
+}
+
+.RuleHeadFlush {
+	line-height: 11pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 0pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: Gautami,"Arial Unicode MS",Arial,sans-serif;
+	 font-size: 10pt;
+
+}
+
+.RuleHeadParagraph {
+	line-height: 11pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 21.6pt;
+	 text-align: left;
+	 text-justify: inter-word;
+	 font-family: Gautami,"Arial Unicode MS",Arial,sans-serif;
+	 font-size: 10pt;
+
+}
+
+.RuleTextFlush {
+	line-height: 11pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 0pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: Gautami,"Arial Unicode MS",Arial,sans-serif;
+	 font-size: 10pt;
+
+}
+
+.WRCB {
+	line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 0pt;
+	 text-align: center;
+	 text-justify: inter-word;
+	 font-family: Gautami,"Arial Unicode MS",Arial,sans-serif;
+	 font-size: 10pt;
+	 font-weight: bolder;
+
+}
+
+.WRCI {
+	line-height: 11pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 0pt;
+	 text-align: center;
+	 text-justify: inter-word;
+	 font-family: Gautami,"Arial Unicode MS",Arial,sans-serif;
+	 font-size: 10pt;
+	 font-style: italic;
+
+}
+
+.RunningHeader {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-variant: small-caps;
+	 font-size: 9pt;
+
+}
+
+.RunningHeaderPage {
+	line-height: 1em;
+	 margin-bottom: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-size: 9pt;
+
+}
+
+.SignatureLine {
+	line-height: 12pt;
+	 margin-bottom: 10pt;
+	 margin-left: 216pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-variant: small-caps;
+	 font-size: 10pt;
+
+}
+
+.SourceLine {
+	line-height: 10pt;
+	 margin-bottom: 10pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 9pt;
+
+}
+
+.Style {
+
+}
+
+.Style1 {
+
+}
+
+.Sub-title {
+	line-height: 20pt;
+	 margin-bottom: 12pt;
+	 margin-top: 6pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 text-transform: uppercase !important;
+	 font-size: 18pt;
+
+}
+
+.sup {
+	vertical-align: super;
+	 font-size: smaller;
+	 line-height: 100%;
+
+}
+
+.TableNormal {
+	margin-left: 0pt;
+	 margin-top: 0pt;
+	 margin-bottom: 0pt;
+
+}
+
+.TableGrid {
+	margin-left: 0pt;
+	 margin-top: 0pt;
+	 margin-bottom: 0pt;
+	 line-height: 1em;
+	 padding-top: 0pt;
+	 border-top: solid 1pt #000;
+	 padding-left: 0pt;
+	 border-left: solid 1pt #000;
+	 padding-bottom: 0pt;
+	 border-bottom: solid 1pt #000;
+	 padding-right: 0pt;
+	 border-right: solid 1pt #000;
+
+}
+
+.TableGrid > tbody > tr > td, .TableGrid > tr > td {
+	border-top: solid 1pt 000;
+	 border-left: solid 1pt 000;
+
+}
+
+.TableGrid tr:first-child > td {
+	border-top: none;
+
+}
+
+.TableGrid td:first-child {
+	border-left: none;
+
+}
+
+.TextFlushRightNameLine {
+	padding-top: 1pt;
+	 border-top: solid 1pt #000;
+	 line-height: 12.5pt;
+	 margin-bottom: 10pt;
+	 margin-left: 216pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+
+}
+
+.TextHanging {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: -21.6pt;
+	 margin-left: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+
+}
+
+.TextHeadCentered {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 margin-left: 21.6pt;
+	 margin-right: 21.6pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+
+}
+
+.WTCB {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 margin-left: 21.6pt;
+	 margin-right: 21.6pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+	 font-weight: bolder;
+
+}
+
+.WTCBI {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 margin-left: 21.6pt;
+	 margin-right: 21.6pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+	 font-weight: bolder;
+	 font-style: italic;
+
+}
+
+.WTCI {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 margin-left: 21.6pt;
+	 margin-right: 21.6pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+	 font-style: italic;
+
+}
+
+.TextHeadFlush {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+
+}
+
+.WTFB {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+	 font-weight: bolder;
+
+}
+
+.WTFBI {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+	 font-weight: bolder;
+	 font-style: italic;
+
+}
+
+.WTFBI1 {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+	 font-weight: bolder;
+	 font-style: italic;
+	 margin-left: 43.2pt;
+
+}
+
+.WTFI {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+	 font-style: italic;
+
+}
+
+.WTFI1 {
+	line-height: 12pt;
+	 margin-bottom: 10pt;
+	 margin-top: 0pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+	 font-style: italic;
+	 margin-left: 43.2pt;
+
+}
+
+.TextHeadParagraph {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 21.6pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+
+}
+
+.HeadMiscItalics {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 6pt;
+	 text-indent: 21.6pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+	 font-style: italic;
+
+}
+
+.TextList {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+
+}
+
+.WTL1 {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+	 margin-left: 21.6pt;
+
+}
+
+.WTL2 {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+	 margin-left: 43.2pt;
+
+}
+
+.WTL3 {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+	 margin-left: 64.8pt;
+
+}
+
+.TextParagraph {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+
+}
+
+.ImageSpace {
+	line-height: 1em;
+	 margin-bottom: 10pt;
+	 margin-top: 10pt;
+	 text-indent: 0pt;
+	 text-align: center;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+
+}
+
+.TextFlush {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 0pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+
+}
+
+.WT11 {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 0pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+	 margin-left: 21.6pt;
+	 margin-right: 21.6pt;
+
+}
+
+.WT21 {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+	 margin-left: 21.6pt;
+	 margin-right: 21.6pt;
+
+}
+
+.WT22 {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 0pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+	 margin-left: 43.2pt;
+	 margin-right: 21.6pt;
+
+}
+
+.WT32 {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+	 margin-left: 43.2pt;
+	 margin-right: 21.6pt;
+
+}
+
+.WT33 {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 0pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+	 margin-left: 64.8pt;
+	 margin-right: 21.6pt;
+
+}
+
+.WT43 {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+	 margin-left: 64.8pt;
+	 margin-right: 21.6pt;
+
+}
+
+.WT44 {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 0pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+	 margin-left: 86.4pt;
+	 margin-right: 21.6pt;
+
+}
+
+.WT54 {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+	 margin-left: 86.4pt;
+	 margin-right: 21.6pt;
+
+}
+
+.WT55 {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 0pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+	 margin-left: 108pt;
+	 margin-right: 21.6pt;
+
+}
+
+.WTPB {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+	 font-weight: bolder;
+
+}
+
+.WTPBI {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: -21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+	 margin-left: 21.6pt;
+	 font-weight: bolder;
+	 font-style: italic;
+
+}
+
+.WTPI {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+	 font-style: italic;
+
+}
+
+.Title {
+	line-height: 1.15em;
+	 margin-bottom: 15pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-variant: small-caps;
+	 letter-spacing: 0.25pt;
+	 font-size: 30pt;
+
+}
+
+.WCPI {
+	line-height: 1.15em;
+	 margin-bottom: 10pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-variant: small-caps;
+	 font-size: 9pt;
+
+}
+
+.WDIVB {
+	line-height: 1.15em;
+	 margin-bottom: 12pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-variant: small-caps;
+	 font-size: 10pt;
+
+}
+
+.WDNA {
+	line-height: 9pt;
+	 margin-bottom: 10pt;
+	 text-indent: 21.6pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+
+}
+
+.WD11 {
+	line-height: 9pt;
+	 margin-bottom: 10pt;
+	 text-indent: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+	 margin-left: 16.55pt;
+
+}
+
+.WD21 {
+	line-height: 9pt;
+	 margin-bottom: 10pt;
+	 text-indent: 16.55pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+	 margin-left: 16.55pt;
+
+}
+
+.WDL1 {
+	line-height: 9pt;
+	 margin-bottom: 10pt;
+	 text-indent: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+	 margin-left: 21.6pt;
+
+}
+
+.WDL2 {
+	line-height: 9pt;
+	 margin-bottom: 10pt;
+	 text-indent: 0pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+	 margin-left: 43.2pt;
+
+}
+
+.WE11 {
+	line-height: 10pt;
+	 margin-bottom: 10pt;
+	 margin-left: 21.6pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 9pt;
+
+}
+
+.WE22 {
+	line-height: 10pt;
+	 margin-bottom: 10pt;
+	 margin-left: 43.2pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 9pt;
+
+}
+
+.WE33 {
+	line-height: 10pt;
+	 margin-bottom: 10pt;
+	 margin-left: 64.8pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 9pt;
+
+}
+
+.WECB {
+	line-height: 11.5pt;
+	 margin-bottom: 10pt;
+	 margin-left: 21.6pt;
+	 margin-right: 21.6pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-size: 9.5pt;
+
+}
+
+.WECR {
+	line-height: 11.5pt;
+	 margin-bottom: 10pt;
+	 margin-left: 21.6pt;
+	 margin-right: 21.6pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 9.5pt;
+
+}
+
+.WECI {
+	line-height: 11.5pt;
+	 margin-bottom: 10pt;
+	 margin-left: 21.6pt;
+	 margin-right: 21.6pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 9.5pt;
+	 font-style: italic;
+
+}
+
+.WEF {
+	line-height: 11.5pt;
+	 margin-bottom: 10pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 9.5pt;
+
+}
+
+.WEGT {
+	line-height: 1em;
+	 margin-bottom: 4pt;
+	 margin-top: 4pt;
+	 text-indent: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+
+}
+
+.AMERICANCASEBOOKSERIES {
+	line-height: 14pt;
+	 margin-bottom: 4pt;
+	 margin-top: 4pt;
+	 text-indent: 0pt;
+	 text-align: center;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 12pt;
+	 font-weight: bolder;
+
+}
+
+.AMERICANCASEBOOKSERIES0 {
+	line-height: 14pt;
+	 margin-bottom: 4pt;
+	 margin-top: 4pt;
+	 text-indent: 0pt;
+	 text-align: center;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 12pt;
+	 font-weight: bolder;
+
+}
+
+.SERIESNAME {
+	line-height: 16pt;
+	 margin-bottom: 4pt;
+	 margin-top: 4pt;
+	 text-indent: 0pt;
+	 text-align: left;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 12pt;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+	 letter-spacing: 2.5pt;
+
+}
+
+.UNIVERSITYCASEBOOKSERIES {
+	line-height: 12pt;
+	 margin-bottom: 6pt;
+	 margin-top: 0pt;
+	 text-indent: 0pt;
+	 text-align: left;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 12pt;
+	 font-weight: bolder;
+	 text-transform: uppercase !important;
+
+}
+
+.WestBookTitle {
+	line-height: 32pt;
+	 margin-bottom: 10pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-variant: small-caps;
+	 font-size: 30pt;
+
+}
+
+.WGHC {
+	line-height: 20pt;
+	 margin-bottom: 10pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-variant: small-caps;
+	 font-size: 18pt;
+
+}
+
+.WGCC {
+	line-height: 10pt;
+	 margin-bottom: 10pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-variant: small-caps;
+	 font-size: 9pt;
+
+}
+
+.WH2 {
+	line-height: 11pt;
+	 margin-bottom: 10pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-size: 9pt;
+
+}
+
+.WIR1 {
+	line-height: 9pt;
+	 margin-bottom: 0pt;
+	 text-indent: -21.6pt;
+	 margin-left: 43.2pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+
+}
+
+.WIR2 {
+	line-height: 9pt;
+	 margin-bottom: 0pt;
+	 text-indent: -21.6pt;
+	 margin-left: 64.8pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+
+}
+
+.WIR3 {
+	line-height: 9pt;
+	 margin-bottom: 0pt;
+	 text-indent: -21.6pt;
+	 margin-left: 108pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+
+}
+
+.WIR4 {
+	line-height: 9pt;
+	 margin-bottom: 0pt;
+	 text-indent: -21.6pt;
+	 margin-left: 129.6pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 8pt;
+
+}
+
+.WJ11 {
+	line-height: 13pt;
+	 margin-bottom: 10pt;
+	 margin-left: 21.6pt;
+	 font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+
+}
+
+.WJ22 {
+	line-height: 13pt;
+	 margin-bottom: 10pt;
+	 margin-left: 43.2pt;
+	 font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+
+}
+
+.WJ33 {
+	line-height: 13pt;
+	 margin-bottom: 10pt;
+	 margin-left: 64.8pt;
+	 font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+
+}
+
+.WJCB {
+	line-height: 13pt;
+	 margin-bottom: 10pt;
+	 margin-left: 21.6pt;
+	 margin-right: 21.6pt;
+	 text-align: center;
+	 font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+	 font-weight: bolder;
+
+}
+
+.WJCI {
+	line-height: 13pt;
+	 margin-bottom: 10pt;
+	 margin-left: 21.6pt;
+	 margin-right: 21.6pt;
+	 text-align: center;
+	 font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+	 font-weight: normal;
+	 font-style: italic;
+
+}
+
+.WN11 {
+	line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 margin-left: 21.6pt;
+	 margin-right: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+
+}
+
+.WN21 {
+	line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 21.6pt;
+	 margin-left: 21.6pt;
+	 margin-right: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+
+}
+
+.WN22 {
+	line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 margin-left: 43.2pt;
+	 margin-right: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+
+}
+
+.WN32 {
+	line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 21.6pt;
+	 margin-left: 43.2pt;
+	 margin-right: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+
+}
+
+.WN33 {
+	line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 margin-left: 64.8pt;
+	 margin-right: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+
+}
+
+.WN43 {
+	line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 21.6pt;
+	 margin-left: 64.8pt;
+	 margin-right: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+
+}
+
+.WN54 {
+	line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: 21.6pt;
+	 margin-left: 86.4pt;
+	 margin-right: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+
+}
+
+.WNCCS {
+	line-height: 12pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-variant: small-caps;
+	 font-size: 10pt;
+
+}
+
+.WNL1 {
+	line-height: 12pt;
+	 margin-bottom: 10pt;
+	 margin-left: 21.6pt;
+	 margin-right: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+
+}
+
+.WNL2 {
+	line-height: 12pt;
+	 margin-bottom: 10pt;
+	 margin-left: 43.2pt;
+	 margin-right: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+
+}
+
+.WNL3 {
+	line-height: 12pt;
+	 margin-bottom: 10pt;
+	 margin-left: 64.8pt;
+	 margin-right: 21.6pt;
+	 text-align: justify;
+	 text-justify: inter-word;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10pt;
+
+}
+
+.WNPB {
+	line-height: 11.5pt;
+	 margin-bottom: 10pt;
+	 text-indent: 21.6pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-size: 10pt;
+
+}
+
+.WNPI {
+	line-height: 11.5pt;
+	 margin-bottom: 10pt;
+	 text-indent: 21.6pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: normal;
+	 font-size: 10pt;
+	 font-style: italic;
+
+}
+
+.WP {
+	line-height: 12pt;
+	 margin-bottom: 10pt;
+	 text-indent: 21.6pt;
+	 font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+	 font-size: 10pt;
+
+}
+
+.WPF {
+	line-height: 12pt;
+	 margin-bottom: 10pt;
+	 text-indent: 0pt;
+	 font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+	 font-size: 10pt;
+
+}
+
+.WP11 {
+	line-height: 12pt;
+	 margin-bottom: 10pt;
+	 text-indent: 0pt;
+	 font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+	 font-size: 10pt;
+	 margin-left: 21.6pt;
+
+}
+
+.WP21 {
+	line-height: 12pt;
+	 margin-bottom: 10pt;
+	 text-indent: 21.6pt;
+	 font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+	 font-size: 10pt;
+	 margin-left: 21.6pt;
+
+}
+
+.WR11 {
+	line-height: 13pt;
+	 margin-bottom: 10pt;
+	 margin-left: 21.6pt;
+	 font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+
+}
+
+.WR22 {
+	line-height: 13pt;
+	 margin-bottom: 10pt;
+	 margin-left: 43.2pt;
+	 font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+
+}
+
+.WR33 {
+	line-height: 13pt;
+	 margin-bottom: 10pt;
+	 margin-left: 64.8pt;
+	 font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+
+}
+
+.WR21 {
+	line-height: 13pt;
+	 margin-bottom: 10pt;
+	 margin-left: 21.6pt;
+	 font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+	 text-indent: 21.6pt;
+
+}
+
+.WR32 {
+	line-height: 13pt;
+	 margin-bottom: 10pt;
+	 margin-left: 43.2pt;
+	 font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+	 text-indent: 21.6pt;
+
+}
+
+.WRH {
+	line-height: 1.15em;
+	 margin-bottom: 10pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-size: 10pt;
+
+}
+
+.WTCCS {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 margin-left: 21.6pt;
+	 margin-right: 21.6pt;
+	 text-align: center;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-variant: small-caps;
+	 font-size: 10.5pt;
+
+}
+
+.WTFB1 {
+	line-height: 12.5pt;
+	 margin-bottom: 3.75pt;
+	 margin-top: 3.75pt;
+	 text-indent: -21.6pt;
+	 margin-left: 43.2pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-weight: bolder;
+	 font-size: 10.5pt;
+
+}
+
+.WTR1 {
+	line-height: 12.5pt;
+	 margin-bottom: 10pt;
+	 text-indent: -21.6pt;
+	 margin-left: 43.2pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+
+}
+
+.WTR2 {
+	line-height: 12.5pt;
+	 margin-bottom: 10pt;
+	 text-indent: -21.6pt;
+	 margin-left: 64.8pt;
+	 font-family: "Century Schoolbook","Times New Roman",Times,serif;
+	 font-size: 10.5pt;
+
+}
