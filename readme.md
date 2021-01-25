@@ -9,9 +9,11 @@
 
 [Constitutional Law, 6th Ed, Erwin Chemerinsky](https://cyberlawlibrary.github.io/Casebooks/Constitutional-Law-6th-Ed)
 
-[Evidence Law and Practice, 7th Ed, Bergman et al.](https://cyberlawlibrary.github.io/Casebooks/Evidence-Law-and-Practice-7th-Ed/)
+[Education Law: Equality, Fairness, and Reform, 2nd Ed, Derek Black](https://cyberlawlibrary.github.io/Casebooks/Education-Law-Equality-Fairness-and-Reform-2nd-Ed)
 
-[Legal Ethics, 8th Ed, Rhode et al.](https://cyberlawlibrary.github.io/Casebooks/Legal-Ethics-8th-Ed/)
+[Evidence Law and Practice, 7th Ed, Bergman et al.](https://cyberlawlibrary.github.io/Casebooks/Evidence-Law-and-Practice-7th-Ed)
+
+[Legal Ethics, 8th Ed, Rhode et al.](https://cyberlawlibrary.github.io/Casebooks/Legal-Ethics-8th-Ed)
 
 [Local Government Law, 6th Ed, Gerald Frug et al.](https://cyberlawlibrary.github.io/Casebooks/Local-Government-Law-6th-Ed)
 
