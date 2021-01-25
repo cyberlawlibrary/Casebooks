@@ -1,0 +1,1220 @@
+body
+{
+	
+	margin-left: 1em;
+	margin-right: 1em;
+}
+.img
+{
+	max-width:100%;
+	margin-bottom: 0em;
+	margin-top: 0em;
+}
+a
+{
+    text-decoration:none;
+    color:inherit;
+}
+span.under
+{
+    text-decoration:underline;
+}
+div.pagebreak
+{
+    page-break-before:always;
+}
+
+hr {
+	border: 1px solid black;
+	margin-right:15%;
+	margin-top:3em;
+}
+div.line {
+	border: 2.5px solid black;
+	margin-top:1em;
+	margin-bottom:1em;
+	margin-right:20%;
+	margin-left:20%;
+	text-align: center;
+	
+}
+.prule {
+	border: 1px solid black;
+		margin-top:0em;
+	width: 100%;
+}
+
+.rule1 {
+	border: 1px solid black;
+	margin-top:3em;
+	width: 100%;
+}
+hr.fm{
+	border: 2px solid black;
+	margin-left: 40%;
+	margin-right: 40%;
+	margin-top: 0em;
+	margin-bottom: 0em;
+
+}
+hr.fmbm{
+	border: 2px solid black;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 0em;
+	margin-bottom: 0em;
+
+}
+hr.fm1{
+	border: 2px solid black;
+	margin-left: 45%;
+	margin-right: 45%;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+.half
+{
+    margin-top: 0.5em;
+    margin-right: 0em;
+    margin-bottom: 0.5em;
+    margin-left: 0em;
+    text-indent: 0em;
+    text-align: center;
+    font-size: 230%;
+    font-weight: bold;
+
+}
+
+.editor
+{
+    margin-top: 2em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+    text-indent: 0em;
+    text-align: left;
+    font-size: 130%;
+    font-weight: bold;
+
+}
+
+.title
+{
+    margin-top: 0.5em;
+    margin-right: 0em;
+    margin-bottom: 0.5em;
+    margin-left: 0em;
+    text-indent: 0em;
+    text-align: center;
+    font-size: 230%;
+    font-weight: bold;
+
+}
+.title1
+{
+    margin-top: 0.5em;
+    margin-right: 0em;
+    margin-bottom: 0.5em;
+    margin-left: 0em;
+    text-indent: 0em;
+    text-align: center;
+    font-size: 160%;
+    font-weight: bold;
+
+}
+.title2
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 0.5em;
+    margin-left: 0em;
+    text-indent: 0em;
+    text-align: center;
+    font-size: 140%;
+    font-weight: bold;
+
+}
+
+.author
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0.1em;
+    margin-left: 0em;
+    text-indent: 0em;
+    text-align: center;
+    font-size: 120%;
+    font-weight:normal;
+}
+
+.author1
+{
+    margin-top: 0em;
+    margin-bottom: 0.5em;
+    margin-left: 0em;
+    text-indent: 0em;
+    text-align: right;
+    margin-right: 30%;
+    font-size: 110%;
+    font-weight: normal;
+}
+.copy
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+    text-indent: 0em;
+    text-align: left;
+    font-size: 95%;
+}
+
+
+.copy1
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 2em;
+    text-indent: 0em;
+    text-align: left;
+    font-size: 95%;
+}
+.copy2
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 2em;
+    text-indent: -2em;
+    text-align: left;
+    font-size: 95%;
+}
+
+p.fm
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+    text-indent: 0em;
+    text-align: center;
+    font-size: 180%;
+}
+p.fm1
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+    text-indent: 0em;
+    text-align: left;
+    font-size: 160%;
+}
+.h2
+{
+    margin-top: 0.5em;
+    margin-right: 0em;
+    margin-bottom: 0.5em;
+    margin-left: 0em;
+    text-indent: 0em;
+    text-align: center;
+    font-size: 160%;
+}
+
+.space {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+span.smallcap {
+	font-variant: small-caps;
+}
+span.small {
+	font-style: small;
+}
+span.italic {
+	font-style: italic;
+	color: red;
+}
+span.bold {
+	font-weight: bold;
+}
+span.bolditalic {
+	font-weight: bold;
+	font-style: italic;
+}
+.soc
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+    text-indent: 0em;
+    text-align: left;
+    font-size: 100%;
+    }
+.soc1
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 5em;
+    text-indent: -5.2em;
+    text-align: left;
+    font-size: 100%;
+    }
+.toca
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+    text-indent: 0em;
+    text-align: left;
+    font-size: 100%;
+    }
+.toc
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+    text-indent: 0em;
+    text-align: center;
+    font-size: 100%;
+    }
+
+.toc1
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 1.5em;
+    text-indent: -1.3em;
+    text-align: left;
+    font-size: 100%;
+    }
+
+.toc2
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 2.4em;
+    text-indent: -1em;
+    text-align: left;
+    font-size: 100%;
+    }
+.toc3
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 5em;
+    text-indent: 0em;
+    text-align: left;
+    font-size: 100%;
+    }
+.toc4
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 5em;
+    text-indent: 0em;
+    text-align: left;
+    font-size: 100%;
+    }
+.toc5
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 3.6em;
+    text-indent: -1em;
+    text-align: left;
+    font-size: 100%;
+    }
+.toc5a
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 4.7em;
+    text-indent: -1em;
+    text-align: left;
+    font-size: 100%;
+    }
+.toc6
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 5em;
+    text-indent: 0em;
+    text-align: left;
+    font-size: 100%;
+    }
+.hang
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 2em;
+    text-indent: -1.5em;
+    text-align: left;
+    font-size: 100%;
+    }
+.h3
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+    margin-left: 1.5em;
+	text-indent: -1.3em;
+    text-align: left;
+    font-size: 115%;
+    font-weight: bold;
+}
+
+.h4
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+	text-indent: -0.9em;
+    text-align: left;
+    font-size: 115%;
+    font-weight: bold;
+}
+.h4a
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+	text-indent: -0.9em;
+    text-align: left;
+    font-size: 115%;
+    font-weight: bold;
+}
+.h5
+{
+    margin-top: 1em;
+    margin-right: 20%;
+    margin-bottom: 0em;
+    margin-left: 20%;
+	text-indent: 0em;
+    text-align: center;
+    font-size: 115%;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+.h5a
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+	text-indent: 0em;
+    text-align: center;
+    font-size: 95%;
+    font-weight: bold;
+}
+.h6
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+    text-indent: 0em;
+    text-align: left;
+    font-size: 100%;
+    font-weight: normal;
+}
+.h6a
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+    text-indent: 0em;
+    text-align: left;
+    font-size: 100%;
+    font-weight: bold;
+}
+.h7
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+    margin-left: 1.5em;
+    text-indent: 0em;
+    text-align: left;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.h8
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+	text-indent: 0em;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.h10
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+	text-indent: 0em;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+}
+.h10a
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+	text-indent: 0em;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+}
+.h10b
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+	text-indent: 0em;
+    text-align: center;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.h11
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+	text-indent: 0em;
+    text-align: left;
+    font-size: 100%;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+.h11C
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+    margin-left: 2.5em;
+	text-indent: -1em;
+    text-align: left;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+
+.h12
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+	text-indent: 0em;
+    text-align: left;
+    font-size: 100%;
+    font-weight: bold;
+    }
+
+.h13
+{
+    margin-top: 0.5em;
+    margin-right: 0em;
+    margin-bottom: 0.5em;
+    margin-left: 0em;
+	text-indent: 0em;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+    }
+.h14
+{
+    margin-top: 0.5em;
+    margin-right: 0em;
+    margin-bottom: 0.5em;
+    margin-left: 0em;
+	text-indent: 0em;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.h15
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+	text-indent: 0em;
+    text-align: center;
+    font-size: 115%;
+    font-weight: bold;
+}
+
+.h16
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+	text-indent: 0em;
+    text-align: center;
+    font-size: 100%;
+    font-weight: normal;
+}
+.h17
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+	text-indent: 0em;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.h18
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+	text-indent: 0em;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.h20
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 0.2em;
+    margin-left: 1.5em;
+	text-indent: 0em;
+    text-align: left;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.h21
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 0.2em;
+    margin-left: 0em;
+	text-indent: 0em;
+    text-align: left;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.fig
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 0.5em;
+    margin-left: 0em;
+	text-indent: 0em;
+    text-align: center;
+    font-size: 100%;
+    font-weight: normal;
+}
+.exercise
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+	text-indent: 0em;
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+
+}
+
+
+.problem
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 5em;
+    margin-left: 2em;
+	text-indent: 0em;
+    text-align: left;
+    font-size: 110%;
+}
+.problem1
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 5em;
+    margin-left: 0em;
+	text-indent: 0em;
+    text-align: left;
+    font-size: 110%;
+}
+
+.problem2
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 5em;
+    margin-left: 0em;
+	text-indent: 0em;
+    text-align: left;
+    font-size: 100%;
+    font-weight:bold;
+}
+
+
+.table
+{
+	margin:auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    }
+.space
+{
+	    margin-top: 0em;
+    margin-bottom: 0em;
+    }
+.blockhang
+{
+    margin-top: 0em;
+    margin-right: 1.5em;
+    margin-bottom: 0em;
+    margin-left: 2.5em;
+    text-indent: -2em;
+    text-align: justify;
+    font-size: 95%;
+    }
+
+
+.blockindent
+{
+    margin-top: 0em;
+    margin-right: 1.5em;
+    margin-bottom: 0em;
+    margin-left: 2.5em;
+    text-indent: 0em;
+    text-align: justify;
+    font-size: 95%;
+    }
+.block
+{
+    margin-top: 0em;
+    margin-right: 1.5em;
+    margin-bottom: 0em;
+    margin-left: 1.5em;
+    text-indent: 0em;
+    text-align: justify;
+    font-size: 95%;
+    }
+
+.block11
+{
+    margin-top: 0em;
+    margin-right: 1.5em;
+    margin-bottom: 0em;
+    margin-left: 2.5em;
+    text-indent: 0em;
+    text-align: justify;
+    font-size: 95%;
+    }
+.block111
+{
+    margin-top: 0em;
+    margin-right: 1.5em;
+    margin-bottom: 0em;
+    margin-left: 2.5em;
+    text-indent: 0em;
+    text-align: justify;
+    font-size: 100%;
+    }
+
+.fblock
+{
+    margin-top: 0em;
+    margin-right: 1.5em;
+    margin-bottom: 0em;
+    margin-left: 1.5em;
+    text-indent: 0em;
+    text-align: justify;
+    font-size: 90%;
+    }
+
+	.quote
+{
+    margin-top: 0em;
+    margin-right: 2em;
+    margin-bottom: 0em;
+    margin-left: 2em;
+    text-indent: 0em;
+    text-align: justify;
+    font-size: 95%;
+    }
+.list
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 1.5em;
+    text-indent: -1.3em;
+    text-align: justify;
+    font-size: 95%;
+    }
+.list1
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 2.5em;
+    text-indent: 0em;
+    text-align: justify;
+    font-size: 95%;
+    }
+.list2
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 2em;
+    text-indent: 0em;
+    text-align: justify;
+    font-size: 95%;
+    }
+
+.noindent
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+	text-indent: 0em;
+    text-align: justify;
+    font-size: 100%;
+    font-weight: normal;
+}
+.fnoindent
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+	text-indent: 0em;
+    text-align: justify;
+    font-weight: normal;
+}
+
+.ffnoindent
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+	text-indent: 0em;
+    text-align: justify;
+    font-weight: normal;
+    fon-size:90%;
+}
+
+.noindentt
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+	text-indent: 0em;
+    text-align: justify;
+    font-size: 100%;
+    font-weight: normal;
+}
+.noindentb
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+	text-indent: 0em;
+    text-align: justify;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+span.left
+{
+    text-align: left;
+    font-size: 100%;
+    font-weight: normal;
+    padding-left: 2em;
+    }
+
+.indent
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0.1em;
+    margin-left: 0em;
+	text-indent: 1.5em;
+    text-align: justify;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.findent
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0.1em;
+    margin-left: 0em;
+	text-indent: 1.5em;
+    text-align: justify;
+    font-size: 90%;
+    font-weight: normal;
+}
+
+.indent1
+{
+    margin-top: 0.3em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+	text-indent: 1.5em;
+    text-align: justify;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.indentt
+{
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+	text-indent: 1.5em;
+    text-align: justify;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.indentb
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+    margin-left: 0em;
+	text-indent: 1.5em;
+    text-align: justify;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.indentf
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 2.4em;
+	text-indent: 1.5em;
+    text-align: justify;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.indentff
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0.8em;
+	text-indent: 1.5em;
+    text-align: justify;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.indentfff
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 3.5em;
+	text-indent: 1.5em;
+    text-align: justify;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+div.bside
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+    text-indent: 3em;
+    text-align: left;
+    font-size: 100%;
+   }
+
+
+.center
+{
+    margin-top: 0.5em;
+    margin-right: 0em;
+    margin-bottom: 0.5em;
+    margin-left: 0em;
+	text-indent: 0em;
+    text-align: center;
+    font-size: 100%;
+    font-weight: normal;
+   }
+
+.star
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+	text-indent: 0em;
+    text-align: center;
+    font-size: 100%;
+   }
+
+.right
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+	text-indent: 0em;
+    text-align: right;
+    font-size: 95%;
+   }
+	
+	ol.loweralpha1 {
+		list-style-type: lower-alpha;
+	}
+	ol.upperalpha {
+		list-style-type: upper-alpha;
+	}
+
+	ul.square {
+		list-style-type: square;
+		}
+	ul.square1 {
+		list-style-type: square;
+		}
+			ul.upperroman {
+		list-style-type: upper-roman;
+	}
+
+ol.lowerroman {
+		list-style-type: lower-roman;
+}
+
+			
+.image
+{
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+    margin-right: 0em;
+    text-align: center;
+}
+.chimage
+{
+    margin-top: 0em;
+    margin-bottom: 2em;
+    margin-right: 0em;
+    text-align: left;
+}
+.caption
+{
+    margin-top: 0em;
+    margin-bottom: 0.8em;
+    margin-right: 0em;
+    text-align: left;
+    color: gray;
+}
+
+div.pagebreak {
+	page-break-before: always;
+}
+
+	.bib
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0.5em;
+    text-indent: 0em;
+    text-align: justify;
+    font-size: 105%;
+    font-weight: bold;
+    }
+.bib1
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 1.5em;
+    text-indent: -1em;
+    text-align: justify;
+    font-size: 100%;
+    }
+
+.chang
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 2.5em;
+    text-indent: -1em;
+    text-align: left;
+    font-size: 100%;
+    }
+
+div.side
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+    text-indent: 0em;
+    text-align: left;
+    font-size: 100%;
+    background-color: #e4e5e6;
+    padding-top: 1em; 
+padding-right: 1em;
+padding-bottom:  1em;
+padding-left:  1em;
+    border-top: 2px solid black;
+    }
+div.box1
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+    text-indent: 0em;
+    text-align: left;
+    font-size: 100%;
+    background-color: #e4e5e6;
+    border-top: 2px solid black;
+    padding-top: 1em; 
+padding-right: 1em;
+padding-bottom:  1em;
+padding-left:  1em;
+
+}
+
+div.box
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+    text-indent: 0em;
+    text-align: left;
+    font-size: 100%;
+    border: 2px solid black;
+    padding-top: 1em; 
+padding-right: 1em;
+padding-bottom:  1em;
+padding-left:  1em;
+    }
+
+div.boxt
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 0em;
+    text-indent: 0em;
+    margin: auto;
+    font-size: 100%;
+    width: 50%;
+    border: 2px solid black;
+    padding-top: 1em; 
+padding-right: 1em;
+padding-bottom:  1em;
+padding-left:  1em;
+    }
+
+
+	.cases
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 3em;
+	text-indent: -2.7em;
+    text-align: left;
+    font-size: 100%;
+       }
+
+		.index
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 3em;
+	text-indent: -2.7em;
+    text-align: left;
+    font-size: 100%;
+       }
+		.index1
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 5em;
+	text-indent: -2.7em;
+    text-align: left;
+    font-size: 100%;
+       }
+		.index2
+{
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    margin-left: 7em;
+	text-indent: -2.7em;
+    text-align: left;
+    font-size: 100%;
+       }
+
+.boxtitle
+{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border: 2px solid black;
+    margin-left: 10em;
+    margin-right: 10em;
+}
