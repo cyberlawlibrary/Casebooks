@@ -1,0 +1,52 @@
+.text { font-size: 100%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 1em; margin: 0.3em 0.1em 0.1em; text-align: left; }
+.xtoc { font-size: 95%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; text-align: left; margin: 3px 5px 2px 0.3em; }
+.xtoc0 { font-size: 95%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; text-align: left; margin: 16px 5px 2px 0.3em; }
+.xtoc1 { font-size: 95%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; text-align: left; margin: 2px 2em 1px 1.5em; }
+.xtoc2 { font-size: 95%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; text-align: left; margin: 2px 4em 1px 2.6em; }
+.xtoc3 { font-size: 95%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; text-align: left; margin: 2px 6em 1px 3.8em; }
+.TOC0CN { font-size: 130%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; margin: 2em 0.1em -0.4em; text-align: left; }
+.TOC0CT { font-size: 170%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; margin: 0.2em 0em 0.1em; text-align: left; border-bottom-width: 3px; border-bottom-style: solid; }
+h2.TOC1AH { font-size: 125%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; margin: 1.5em 1em 0.3em; text-align: center; }
+h3.TOC2BH { font-size: 115%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; margin: 0.8em 5em 0.4em 0.1em; text-align: left; }
+h4.TOC3CH { font-size: 105%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; margin: 0.6em 0.1em 0.2em; text-align: left; }
+h4.TOC3case { font-size: 105%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; margin: 0.6em 1.5em 0.3em; text-align: center; }
+h5.TOC5note { font-size: 110%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; margin: 0.9em 2em 0.3em; text-align: center; }
+.extract { font-size: 95%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 1.2em; margin: 0.4em 2em; text-align: justify; }
+.exnoex { font-size: 95%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; margin: 0.3em 2.5em 0.3em 3em; text-align: justify; }
+.exex { font-size: 95%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 1.2em; margin: 0.3em 2em 0.3em 3.3em; text-align: justify; }
+.exex1 { font-size: 95%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 1.2em; margin: 0.3em 2em 0.3em 4.5em; text-align: justify; }
+.exex2 { font-size: 95%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 1.2em; margin: 0.3em 2em 0.3em 5.5em; text-align: justify; }
+.noex { font-size: 95%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; margin: 0.4em 2em; text-align: justify; }
+.noindent { font-size: 100%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; margin: 0.3em 0.1em 0.1em; text-align: justify; }
+.noindent1 { font-size: 95%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; margin: 0.1em 0.1em 0.1em 1.5em; text-align: justify; }
+.nl { font-size: 100%; font-family: serif; font-style: normal; font-weight: normal; text-indent: -27px; margin: 0.3em 1em 0.2em; text-align: justify; padding-left: 28px; }
+h1.title-page-page { font-size: 180%; font-family: "Times New Roman"; font-style: normal; font-weight: bold; text-indent: 0em; margin: 2.5em 0.5em 0.1em; text-align: center; }
+.subtitle-page-page { font-size: 130%; font-family: "Times New Roman"; font-style: normal; font-weight: bold; text-indent: 0em; margin: 0.5em 1.5em 1.5em; text-align: center; }
+.info { font-size: 100%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; margin: 0.3em 1.5em 0.5em; text-align: center; }
+.elipsis { font-size: 100%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; margin: 0.4em 1.5em; text-align: center; }
+.ornament { font-size: 100%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; margin: 0.4em 1.5em; text-align: center; }
+.biblio { font-size: 95%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: -29px; margin: 0.1em 4em 0.1em 0.1em; text-align: left; padding-left: 30px; }
+.ctr { font-size: 100%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; margin: 0.5em 1.5em; text-align: center; }
+.ctr1 { font-size: 105%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; margin: 2em 1.5em 0.5em; text-align: center; }
+.ctr2 { font-size: 100%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; margin: 0.6em 1.5em 0.2em 6em; text-align: left; }
+.author-line { font-size: 110%; font-family: "Times New Roman"; font-style: normal; font-weight: bold; text-indent: 0em; margin: 0.7em 1.5em 0.2em; text-align: center; }
+.author-aff { font-size: 95%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; margin: 0.1em 1.5em 0em; text-align: center; }
+a { text-decoration: none; color: blue; }
+.ind1 { font-size: 100%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; margin: 0.3em 0.5em 0.1em 1.2em; text-align: justify; }
+.judge { font-size: 95%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; margin: 0.4em 0.1em 0.5em; text-align: left; }
+.judge1 { font-size: 100%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 1em; margin: 0.3em 0.1em 0.1em; text-align: justify; }
+.footnotes { font-size: 95%; text-indent: 0em; margin: 1em 0.5em; border-top-width: 0.1em; border-top-style: groove; text-align: left; }
+.FN { font-size: 95%; text-indent: 1.2em; margin: 0.1em 0.5em; text-align: left; }
+.FNex { font-size: 95%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 1.2em; margin: 0.1em 2.2em; text-align: justify; }
+.FNnoindent { font-size: 95%; text-indent: 0em; margin: 0.1em 0.1em 0.2em; text-align: justify; }
+.table { font-size: 95%; border-collapse: collapse; margin: 0.3em 0.5em 0.5em 3em; }
+.table1 { font-size: 95%; border-collapse: collapse; margin: 0.3em 0.5em 0.5em 0.2em; }
+.td { padding: 0.1em; margin-top: 0.1em; text-align: left; }
+.td-top { padding: 0.1em; margin-top: 0.1em; text-align: left; vertical-align: text-top; }
+.inx0 { font-size: 95%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; text-align: justify; margin: 4px 6em 1px 1px; background-color: transparent; color: rgb(0, 0, 0); }
+.inx1 { font-size: 95%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0.1em; text-align: justify; margin: 2px 3em 1px 22px; background-color: transparent; color: rgb(0, 0, 0); }
+.inx2 { font-size: 95%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0.1em; text-align: justify; margin: 2px 3em 1px 43px; background-color: transparent; color: rgb(0, 0, 0); }
+.inx3 { font-size: 95%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0.1em; text-align: justify; margin: 2px 3em 1px 60px; background-color: transparent; color: rgb(0, 0, 0); }
+.inx4 { font-size: 95%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0.1em; text-align: justify; margin: 2px 3em 1px 80px; background-color: transparent; color: rgb(0, 0, 0); }
+.border { font-size: 100%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; margin: 2em 1em 2em 0em; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; }
+.underline { text-decoration: underline; }
