@@ -1,3 +1,16 @@
+
+## About
+
+This is a  collection of patched together browser e-books. It's meant to allow students to access their textbooks in a browser without needing to use the distracting interface that the legal textbook publishers force on students. With this version, you can print as much as you want, edit the text to make corrections or add context the authors left out,\* access the book offline from unlimited devices, and keep it indefinitely without worrying that a company will cut off your access to the text.
+
+These files are also hopefully easier to use than a scanned pdf of the book. An html file of the entire casebook is thousands of times smaller than an equivalent pdf file. These files will hopefully make a high quality digital casebook accessible to students without access to a fast internet connection or high-powered computer.
+
+Clicking on footnotes and other navigation links within the document will jump you to the referenced section. There are no annotation tools—that's a feature you would have to get from the publishers' websites.
+
+
+\* *I.e., by editing the html files directly. There's no special tools needed: instead of opening the html file with your browser, just open it with a text editor, like TextEdit on Mac or Notepad on PC. Be warned the file may look overwhelming at first, and you'll want to google html formatting rules to be able to add the text or images you want.
+If/once you are familiar with html, you can easily supplement the casebook by inserting diagrams, pictures, notes, colored tabs, etc.*
+
 ## Online versions
 [Basic Legal Research, 7th Ed, Amy Sloan](https://cyberlawlibrary.github.io/Casebooks/Basic-Legal-Research-7th-Ed)
 
@@ -8,6 +21,8 @@
 [Criminal Law and Its Processes, 10th Ed, Sanford Kadish et al.](https://cyberlawlibrary.github.io/Casebooks/Criminal-Law-and-Its-Processes-10th-Ed)
 
 [Constitutional Law, 6th Ed, Erwin Chemerinsky](https://cyberlawlibrary.github.io/Casebooks/Constitutional-Law-6th-Ed)
+
+[Disability Law: Cases, Materials, and Problems, 6th Ed, Laura Rothstein and Ann McGinley](https://cyberlawlibrary.github.io/Casebooks/Disability-Law-6th-Ed)
 
 [Education Law: Equality, Fairness, and Reform, 2nd Ed, Derek Black](https://cyberlawlibrary.github.io/Casebooks/Education-Law-Equality-Fairness-and-Reform-2nd-Ed)
 
@@ -37,18 +52,6 @@ Use command-S or right click and choose "Save Page As." You can then choose from
 
 Double-clicking on the webarchive file will open it in safari; if that doesn't work, you can drag the file into a safari window. Voila!
 
-
-## About
-
-This is a  collection of patched together browser e-books. It's meant to allow students to access their textbooks in a browser without needing to use the distracting interface that the legal textbook publishers force on students. With this version, you can print as much as you want, edit the text to make corrections or add context the authors left out,\* access the book offline from unlimited devices, and keep it indefinitely without worrying that a company will cut off your access to the text.
-
-These files are also hopefully easier to use than a scanned pdf of the book. An html file of the entire casebook is thousands of times smaller than an equivalent pdf file. These files will hopefully make a high quality digital casebook accessible to students without access to a fast internet connection or high-powered computer.
-
-Clicking on footnotes and other navigation links within the document will jump you to the referenced section. There are no annotation tools—that's a feature you would have to get from the publishers' websites.
-
-
-\* *I.e., by editing the html files directly. There's no special tools needed: instead of opening the html file with your browser, just open it with a text editor, like TextEdit on Mac or Notepad on PC. Be warned the file may look overwhelming at first, and you'll want to google html formatting rules to be able to add the text or images you want.
-If/once you are familiar with html, you can easily supplement the casebook by inserting diagrams, pictures, notes, colored tabs, etc.*
 
 ### Help with this project
 
