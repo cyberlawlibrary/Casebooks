@@ -50,3 +50,23 @@ a { text-decoration: none; color: blue; }
 .inx4 { font-size: 95%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0.1em; text-align: justify; margin: 2px 3em 1px 80px; background-color: transparent; color: rgb(0, 0, 0); }
 .border { font-size: 100%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; margin: 2em 1em 2em 0em; text-align: left; border-bottom-width: 1px; border-bottom-style: solid; }
 .underline { text-decoration: underline; }
+
+div.pagebreak
+{
+  page-break-before:always !important;
+}
+
+.pagelabel
+{
+		text-align: right;
+		font-size: 10px;
+		/*  color: #666;  */
+		width: 30px;
+		border-bottom: 1px #ccc solid;
+		font-weight: normal;
+		font-style: normal;
+		position: absolute;
+		right: 4pt;
+		line-height: 14px;
+		text-indent: 0px;
+	}
