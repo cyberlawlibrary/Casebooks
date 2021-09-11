@@ -10,6 +10,9 @@ body {
 		display: table;
 		clear: both; }
 
+	div.pagebreak {
+		page-break-before: always;
+		}
 	/* MUST NOT BE DELETED, allows the page numbers and image sizing to work in the ENRICHMENT TOOL */
 	.enrichapps-epubContainer {
 		width: 630px;
