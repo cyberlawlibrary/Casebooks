@@ -1,11 +1,7 @@
 body {
 	margin-left: 45px !important;
 	font-family: 'Open Sans', sans-serif;}
-
-div.pagebreak
-{
-	page-break-before: always;
-}
+	
 		.epub-hide {
 		display: none; }
 
