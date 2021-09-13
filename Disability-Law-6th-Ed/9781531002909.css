@@ -1,4 +1,5 @@
-.text { font-size: 100%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 1em; margin: 0.3em 0.1em 0.1em; text-align: left; }
+.text { font-size: 100%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 1em; margin: 0.3em 0.1em 0.1em; text-align: left;
+	margin-left: 45px !important; margin-right: 45px !important;}
 .xtoc { font-size: 95%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; text-align: left; margin: 3px 5px 2px 0.3em; }
 .xtoc0 { font-size: 95%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; text-align: left; margin: 16px 5px 2px 0.3em; }
 .xtoc1 { font-size: 95%; font-family: "Times New Roman"; font-style: normal; font-weight: normal; text-indent: 0em; text-align: left; margin: 2px 2em 1px 1.5em; }
